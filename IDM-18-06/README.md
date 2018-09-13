@@ -13,3 +13,4 @@ https://github.com/stankin/inet-2018/invitations
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Проект](-) | - | - |
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | [Проект](-) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Проект](-) | - | - |
+| Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | [Проект](-) | - | - |
