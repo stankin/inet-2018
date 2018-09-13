@@ -12,3 +12,4 @@ https://github.com/stankin/inet-2018/invitations
 | Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov/InternetTecnology/wiki) | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Проект](-) | - | - |
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | [Проект](-) | - | - |
+| Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Проект](-) | - | - |
