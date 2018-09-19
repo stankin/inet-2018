@@ -55,7 +55,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Тулякова	Екатерина	Михайловна
 
-Хомяков	Игорь	Сергеевич
+Хомяков	Игорь	Сергеевич  https://github.com/igorWEBdeveloper/igorkh.github.io
 
 Чувак	Павел	Иванович
 
