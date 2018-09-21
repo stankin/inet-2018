@@ -17,7 +17,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Гусев	Юрий	Андреевич
 
-Гущина	Полина	Федоровна
+Гущина	Полина	Федоровна    https://github.com/norowaretta
 
 Ежов	Денис	Олегович
 
