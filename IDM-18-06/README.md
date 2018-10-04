@@ -15,3 +15,4 @@ https://github.com/stankin/inet-2018/invitations
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Проект](-) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | [Проект](-) | - | - |
 | Патрушева Алина Павловна | -  | - | [Страница](https://github.com/realoveola) | [Проект](-) | - | - |
+| Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Проект](https://github.com/nikityane/nikityane.github.io) | - | - |
