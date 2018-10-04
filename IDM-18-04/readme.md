@@ -61,5 +61,5 @@ https://github.com/stankin/inet-2018/invitations
 
 Чырагалиев	Юсиф	Нарбала оглы
 
-Шуленина	Анастасия	Владимировна
+Шуленина	Анастасия	Владимировна https://github.com/asay1515
 
