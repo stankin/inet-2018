@@ -29,7 +29,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Инедеркин	Кирилл	Андреевич
 
-Кайсаров	Магомед	Ганапиевич
+Кайсаров	Магомед	Ганапиевич   https://github.com/kaysarov
 
 Карапетян	Эдуард	Каренович   https://github.com/eduardkarapetyan1997
 
