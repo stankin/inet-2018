@@ -1,75 +1,221 @@
-<html>
-
-   <head>
-
-      <title> Главная </title>
-
-   </head>
-
-   <body bgcolor="#aad5f7">
-
-     <table border="0" cellpadding="0" cellspacing="0"
-            align="center">
-
-     <tr>
-       <td  colspan="2" width="780" height="165"
-            background="images/header.jpg">
-       </td>
-     </tr>
-
-     <tr>
-       <td  colspan="2" width="780" height="38"
-            background="images/menu.jpg">
-
-          <table border="0"  cellpadding="5" cellspacing="0">
-               <tr><td>
-                 <font  color="#FFFFFF" size="5">
-                   Teleegram(bots) || Диаграмма || Cisco
-                 </font>
-               </td></tr>
-          </table>
-
-       </td>
-     </tr>
-
-     <tr>
-       <td  colspan="2" width="780" height="33"
-            background="images/news.jpg">
-       </td>
-     </tr>
-
-     <tr>
-       <td width="200" height="320" bgcolor="#CCCCCC"
-           valign="top">
-
-         <table border="0"  cellpadding="10" cellspacing="0">
-               <tr><td>
- 
-              </td></tr>
-         </table>
-          
-       </td>
-       <td width="580" height="320" bgcolor="#FFFFFF"
-           valign="top">
-
-        <table border="0"  cellpadding="15" cellspacing="0">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Интернет Технологии</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<svg class="hidden">
+			<defs>
+				<path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
+			</defs>
+		</svg>
+		<div class="container">
+			<header class="codrops-header">
+				<h1>Гуров И.С. <span>ИДМ-18-05</span></h1>
+				<p class="support">Ваш браузер не поддерживает <strong>flexbox</strong>! <br />Для просмотра используйте <strong>современный браузер</strong>.</p>
+			</header>
+			
+			
+			<section>
+				<div class="tabs tabs-style-linetriangle">
+					<nav>
+						<ul>
+							<li><a href="#section-linetriangle-1"><span>Telegram(bots)</span></a></li>
+							<li><a href="#section-linetriangle-2"><span>Диаграмма</span></a></li>
+							<li><a href="#section-linetriangle-3"><span>CPT</span></a></li>
+							<li><a href="#section-linetriangle-4"><span>О себе</span></a></li>
+							<li><a href="#section-linetriangle-5"><span>Разное</span></a></li>					
+						</ul>
+					</nav>
+					<div class="content-wrap">
+							<section id="section-linetriangle-1">
+						<table border="0"  cellpadding="0" cellspacing="0">
          <tr><td>
 		  <iframe id="tgw_5bb33f7e83ba883e4d8b4567" frameborder="0" scrolling="no" horizontalscrolling="no" verticalscrolling="no" width="100%" height="540px" async></iframe><script>document.addEventListener("DOMContentLoaded",function(){document.getElementById("tgw_5bb33f7e83ba883e4d8b4567").setAttribute("src","https://tgwidget.com/channel/v2.0/?id=5bb33f7e83ba883e4d8b4567")})</script>
          </td></tr>
         </table>
-        
-       </td>
-     </tr>
+						</section>
+						<section id="section-linetriangle-2">
+						<head>
+  <title>Пирог</title>
+  <script type="text/javascript" src="./js/fusioncharts.js"></script>
+  <script type="text/javascript" src="./js/themes/fusioncharts.theme.fusion.js"></script>
+</head>
+<body>
+<div id="chart-container">FusionCharts XT will load here!</div>
+<div>
+  <form action="" method="post">
+    <b>
+      Данные:
+    </b>
+    <input type="text" id="test">
+    <b>
+      Формат данных:"name:number,name:number"
+    </b>
+  </form>
 
-     <tr>
-       <td  colspan="2" width="780" height="38"
-            background="images/footer.jpg" align="right">
-            ИДМ-18-05 © 2018
-       </td>
-     </tr>
+</div>
+<script type="text/javascript">
 
-    </table>
+  let input = document.getElementById('test');
+  let inputData;
 
-   </body>
+  input.onkeyup = input.oncopy = input.onpaste = input.oncut = (function () {
+    return function () {
+      //внесение информации в кэш скрипта
+      inputData = this.value;
+    }
+  })();
 
+  FusionCharts.ready(function () {
+
+// Create an Instance with chart options
+    let chartInstance = new FusionCharts({
+      type: 'pie2d',
+      renderAt: 'chart-container',
+      width: '700',
+      height: '400',
+      dataFormat: 'json',
+      dataSource: {
+        // Chart Configuration
+        "chart": {
+          "caption": "Hello",
+          "numberSuffix": " единиц",
+          "theme": "fusion",
+        },
+        // Пустые данные изначально
+        "data": []
+      },
+      events: {
+        "beforeRender": function (evt, args) {
+          let controls = document.createElement('div'),
+            chartRef = evt.sender;
+
+          updateData = function () {
+
+            //создание объекта для отправки обратно
+            let data = Object.assign({}, chartRef.getJSONData());
+
+            //очищение старого массива
+            data.data = [];
+
+            // дробление строки на данные каждого элемента по отдельности
+            let imputArr = inputData != null ? inputData.split(',') : null;
+
+            //заполнение массива
+            if (imputArr != null)
+              for (let i = 0; i < imputArr.length; i++) {
+                if (imputArr[i] != null) {
+                  data.data[i] = {};
+                  data.data[i].label = imputArr[i].split(':')[0];
+                  data.data[i].value = +imputArr[i].split(':')[1];
+                }
+              }
+
+            //внесение изменений
+            chartRef.setJSONData(data);
+          };
+          controls.innerHTML = `
+          <button style=" background-color: #6957da;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            padding: 4px 12px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;"
+            onClick="updateData()" >
+              Построить
+          </button>`;
+          controls.style.cssText = 'text-align: center; width: 100%;';
+          args.container.appendChild(controls);
+        }
+      }
+    });
+    // Render
+    chartInstance.render();
+  });
+</script>
+</body>
+						</section>
+						<section id="section-linetriangle-3"><div id="lab3" class="wow fadeInUp" data-wow-delay="1.2s">
+            <h3><i style="font-size:24px" class="fa">&#xf0da;</i> Лабораторная работа №3 "Настройка локальной сети передачи данных"</h3>
+            <b>Требования:</b><br>
+            Настройка коммутаторов и маршрутизаторов<br>
+            <div class="view-source">Задание 
+            <div class="hide">
+                        		1. Разместить на рабочем поле коммутатор и два компьютера и соединить их <br>
+                        		2. Подключить консольный кабель для настройки оборудования<br>
+                        		3. Настроить адресацию на добавленных компьютерах согласно таблице ниже без шлюза по умолчанию<br>
+                        		4. Выполнить проверку работоспособности сети<br>
+                        		5. Добавить на рабочее поле еще один коммутатор с двумя компьютерами и настроить адресацию из другой подсети<br>
+                        		6. Соединить коммутаторы между собой и проверить работоспособность сети<br>
+                        		7. В случае неработоспособности сети объяснить причины<br>
+                        		8. Добавить маршрутизатор на рабочее поле<br>
+                        		9. Настроить интерфейсы маршрутизатора для существующих подсетей<br>
+                        		10. Проверить работоспособность сети<br>
+                        		11. В случае неработоспособности сети объяснить причины<br>
+                        		12. Указать шлюз по умолчанию и отправить сообщение<br>
+                        		13. Добавить на рабочее поле еще один маршрутизатор<br>
+                        		14. Подключить к нему коммутатор и компьютер<br>
+                        		15. Настроить сетевые настройки согласно таблице ниже<br>
+                        		16. Соединить между маршрутизаторы и настроить между ними сеть с префиксом /30<br>
+                        		17. Проверить работоспособность сети, отправив сообщение сети A в сеть С и из сети В в сеть С<br>
+                        		18. В случае неработоспособности сети объяснить причины<br>
+                        		19. Настроить статическую маршрутизацию между сетями<br>
+                        		20. Настроить на сетевых устройствах пароли для привилегированного режима<br>
+                        		21. Настроить пароли на сетевых устройствах пароли на подключение через консоль и telnet<br>
+                        		22. Установить баннер на сетевое оборудование<br>
+                        		23. Проверить работу удаленного подключения<br>
+            </div>
+            </div><br>
+            <b>Выполнено:</b><br>
+            1. На рабочем поле размещены и соединены коммутатор и два компьютера, настроена адресация на добавленных компьюетрах и выполнена проверка работоспособности сети.<br>
+            <img src="images/1.PNG"></img><br>
+            2. Добавлены еще коммутатор с двумя компьютерами, соединены две подсети и настроена адресация.<br>
+            <img src="images/2.PNG"></img><br>
+            3. Добавлен и соединен маршрутизатор, проверена работоспособность сети.<br>
+            <img src="images/3.PNG"></img><br>
+            4. Добавлена и подключена третья подсеть с компьютером, коммутатором и маршрутизатором. Проверена работоспособность всей сети.<br>
+            <img src="images/4.PNG"></img><br>
+            
+			</section>
+						<section id="section-linetriangle-4">
+						
+						 <b>Выполнено:</b><br>
+            1 <a href="https://github.com/gurovivan">Личная странице на github</a> <em>  </em><br>
+  2 <a href="https://stankin.github.io/inet-2018/IDM-18-05/Gurov/index.html">персональная веб-страниица</a> <em>  </em><br>
+
+3 <a href="https://github.com/gurovivan/inet-2018/tree/master/IDM-18-05/Gurov">Персональная веб страница-отчет в репозиторий ИДМ-18-05 по курсу "Интернет-технологии" на GitHub</a></p></a> <em>  </em><p><p>
+
+
+
+						</section>
+						<section id="section-linetriangle-5"><p>5</p></section>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+	</body>
 </html>
