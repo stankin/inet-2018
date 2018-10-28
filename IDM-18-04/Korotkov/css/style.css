@@ -1,55 +1,3 @@
-/*
-   
-    Template Name : DevBlog - Personal Blog Template
-    Author : UiPasta Team
-    Website : http://www.uipasta.com/
-    Support : http://www.uipasta.com/support/
-	
-	
-*/
-
-
-
-/*
-   
-   Table Of Content
-   
-   1. Global Style
-   2. Preloader
-   3. Menu
-   4. About Me (Left Sidebar)
-   5. About Me Page
-   6. My Portfolio
-   7. Owl Carousel Navigation
-   8. Contact Me
-   9. Testimonials
-  10. Blog Post & Single Blog Page
-  11. Video Tutorials
-  12. Blockquote
-  13. List
-  14. Image Popup
-  15. End Box (Popup When Scroll Down)
-  16. About Author Box
-  17. You May Also Like
-  18. Comment
-  19. Load More Button
-  20. Subscribe Form
-  21. Footer
-  22. Socials Icons
-  23. Syntax Highlighter
-  24. Scroll To Top
-  25. Responsive
-  26. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
-  27. UiPasta Credit
- 
-
-*/
-
-
-
-/* Global Style */
-
-
 body {
     font-family: "Poppins", sans-serif;
     background: #fafafa !important;
@@ -270,51 +218,7 @@ button {
 
 
 
-/* Menu */
 
-.menu {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    font-size: 20px;
-    color: #fff;
-    background: #1abc9c;
-    padding: 12px;
-}
-
-.menu-link {
-    list-style: none;
-    padding: 25px;
-    margin: 0;
-    text-align: center;
-}
-
-.menu-link:before,
-.menu-link:after {
-    content: " ";
-    display: table;
-}
-
-.menu-link:after {
-    clear: both;
-}
-
-.menu-link li {
-    display: inline-block;
-    margin: 2px 4px;
-}
-
-.menu-link li a {
-    display: block;
-    color: #333333;
-    text-align: center;
-    font-size: 13px;
-    transition: all 0.3s ease-in-out;
-}
-
-.menu-link li a:hover {
-    color: #1abc9c;
-}
 
 
 
@@ -360,181 +264,13 @@ button {
 
 
 
-/* About Me Page */
-
-.knowledge {
-    list-style: none;
-    padding: 2px;
-    margin: 0;
-    padding-left: 0px;
-}
-
-.knowledge:before,
-.knowledge:after {
-    content: " ";
-    display: table;
-}
-
-.knowledge:after {
-    clear: both;
-}
-
-.knowledge li {
-    display: inline-block;
-    color: #ffffff;
-    margin: 4px 4px;
-    padding: 10px 20px;
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    margin-left: 0px;
-    border-radius: 4px;
-    cursor: default;
-}
 
 
 
-/* My Portfolio */
-
-div.portfolio {
-    display: none;
-    margin-bottom: 50px;
-}
-
-.portfolio img {
-    width: 100%;
-}
-
-.custom-pad-1 {
-    padding-right: 0px;
-}
-
-.custom-pad-2 {
-    padding-left: 0px;
-}
-
-.table {
-    margin-bottom: 0px;
-}
-
-.table > tbody > tr > td {
-    padding: 15px;
-    line-height: 25px;
-    letter-spacing: 0.6px;
-    border: 1px solid #e4e4e4;
-}
-
-.table tr > td {
-    padding: 11px 13px;
-}
-
-tr:nth-child(1) > td {
-    border-top:0px;
-}
-
-tr > td:nth-child(1){
-    background-color: #ffffff;
-    font-weight: 500;
-    font-size: 13px;
-    color: #888888;
-    width: 140px;
-}
-
-tr > td:nth-child(2) {
-    font-weight: 400;
-}
 
 
 
-/* Owl Carousel Navigation */
 
-.owl-navi {
-    color: #333333;
-}
-
-.owl-theme .owl-controls .owl-buttons div {
-    display: inline-block;
-    zoom: 1;
-    margin: 5px;
-    margin-top: -32px;
-    padding: 7px 13px;
-    background-color: transparent;
-    opacity: 1;
-}
-
-.owl-theme .owl-controls {
-    margin-top: 0px;
-}
-
-.owl-prev, .owl-next {
-    position: absolute;
-    top: 50%;
-    padding: 5px;
-    margin: 0;
-    z-index: 100;
-    cursor: pointer;
-}
-
-.owl-prev {
-    left: 2px;
-}
-
-.owl-next {
-    right: 2px;
-}
-
-
-
-/* Contact Me */
-
-.contact-us-detail {
-    margin-top: 10px;
-}
-
-.contact-us-detail i {
-    font-size: 30px;
-    line-height: 50px;
-}
-
-.contact-us-detail a {
-    color: #333333;
-}
-
-.contact-us-detail a:hover {
-    color: #333333;
-}
-
-.form-group {
-    margin-bottom: 25px;
-}
-
-.form-control {
-	border: 2px solid transparent;
-	height: 50px;
-	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px;
-	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-	   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-	    -ms-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-		 -o-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-	-webkit-transition:all 150ms ease-in-out 0s;
-	   -moz-transition:all 150ms ease-in-out 0s;
-	    -ms-transition:all 150ms ease-in-out 0s;
-	     -o-transition:all 150ms ease-in-out 0s;
-		    transition:all 150ms ease-in-out 0s;
-}
-.form-control:focus {
-	border-color: #171717;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-	    -ms-box-shadow: none;
-		 -o-box-shadow: none;
-			box-shadow: none;
-}
-
-.form-control:focus {
-    border-color: #1abc9c;
-    border-width: 2px;
-}
 
 
 
@@ -646,64 +382,6 @@ div.blog-post {
 }
 
 
-
-/* Video Tutorial */
-
-.video-box {
-    background: #333333;
-    width: 70%;
-    margin: 0 auto;
-    height: 100%;
-    box-shadow: 0px 7px 13px 0px rgba(2, 2, 2, 0.56);
-}
-
-.video-tutorial {
-    position: relative;
-}
-
-.video-tutorial .video-popup:after {
-    content: '\e071';
-    font-family: 'simple-line-icons';
-    display: block;
-    color: #1abc9c;
-    font-size: 65px;
-    font-weight: 600;
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    opacity: .9;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.video-tutorial:hover .video-popup:after {
-    font-size: 85px;
-    opacity: .8;
-}
-
-.video-tutorial img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: .5;
-    user-drag: none;
-   -webkit-user-drag: none;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-}
-
-.video-box p {
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-    margin-top: 10px;
-    padding: 0px 15px;
-}
 
 
 
@@ -869,22 +547,6 @@ blockquote {
 
 
 
-/* Comment */
-
-.comment {
-}
-
-.comment h3 {
-    font-size: 25px;
-    line-height: 35px;
-    font-weight: 600;
-    color: #1abc9c;
-    margin-bottom: 35px;
-    letter-spacing: 0.5px;
-}
-
-
-
 /* Load More Button */
 
 .load-more-button {
@@ -919,92 +581,6 @@ blockquote {
     margin: 0 auto;
     font-weight: 500;
 }
-
-
-
-/* Subscribe Form */
-
-#mc-form {
-	text-align: center;
-	padding: 50px;
-}
-
-.mc-label {
-	font-weight: 400;
-}
-
-.subscribe-form {
-	margin-bottom: 15px;
-	position: relative;
-}
-
-.subscribe-form .text-input {
-	padding: 20px;
-	border-radius: 50px;
-	border: solid 7px #1abc9c;
-	background: #333333;
-	color: #ffffff;
-	width: 100%;
-	font-size: 15px;
-	outline: none;
-}
-
-.subscribe-form .text-input::-webkit-input-placeholder {
-	color: #ffffff;
-	opacity: 1;
-}
-
-.subscribe-form .text-input:-moz-placeholder {
-	color: #ffffff;
-	opacity: 1;
-}
-
-.subscribe-form .text-input::-moz-placeholder {
-	color: #ffffff;
-	opacity: 1;
-}
-
-.subscribe-form .text-input:-ms-input-placeholder {
-	color: #ffffff;
-	opacity: 1;
-}
-
-.subscribe-form .text-input:focus::-webkit-input-placeholder {
-	opacity: .5;
-}
-
-.subscribe-form .text-input:focus:-moz-input-placeholder {
-	opacity: .5;
-}
-
-.subscribe-form .text-input:focus::-moz-input-placeholder {
-	opacity: .5;
-}
-
-.subscribe-form .text-input:focus:-ms-input-placeholder {
-	opacity: .5;
-}
-
-.subscribe-form .submit-btn {
-	position: absolute;
-	font-size: 16px;
-	letter-spacing: 0.7px;
-	color: #FFF;
-	background: #1abc9c;
-	border: none;
-	top: 5px;
-	right: 5px;
-	bottom: 5px;
-	border-radius: 50px;
-	width: 150px;
-	text-align: center;
-	outline: none;
-}
-
-.subscribe-form .submit-btn:active {
-	opacity: .8;
-}
-
 
 
 /* Footer */
@@ -1137,15 +713,7 @@ blockquote {
 
 
 
-/* Syntax Highlighter */
 
-.syntaxhighlighter {
-    overflow: hidden;
-}
-
-.syntaxhighlighter .toolbar .item.printSource {
-    display: none !important;
-}
 
 
 
@@ -1750,54 +1318,3 @@ blockquote {
 
 
 
-/* Tooltip Styles */
-
-.tooltip-inner {
-    padding: 10px 12px;
-    min-width: 150px;
-    width: 100%;
-}
-
-.tooltip.top {
-    margin-top: -2px;
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
-}
-
-.tooltip.bottom {
-    margin-top:15px;
-    bottom: auto;
-    left: auto;
-    right: auto;
-}
-
-.tooltip.left {
-    margin-right: 15px;
-}
-
-.tooltip.right {
-    margin-left: 15px;
-}
-
-.tooltip-color .tooltip-inner {
-    color: #fff;
-}
-
-
-
-/* UiPasta Credit */
-
-.uipasta-credit {
-    color: #333333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.uipasta-credit a {
-    color: #1abc9c;
-    font-weight: 600;
-}
-
-.uipasta-credit a:hover {
-    color: #333333;
-}
