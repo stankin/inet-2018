@@ -35,7 +35,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Князев	Кирилл	Константинович
 
-Коротков	Алексей	Сергеевич https://github.com/Zato4ka https://github.com/Zato4ka/Zato4ka.github.io
+Коротков	Алексей	Сергеевич https://github.com/Zato4ka https://github.com/Zato4ka/Zato4ka.github.io Модуль 1: 50
 
 Лебедев	Александр	Михайлович
 
