@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+
+<html>
+        <head>
+		<title> Vatanieva </title>
+		<meta charset = " utf-8">
+		</head>
+		<body bgcolor ="#00FFFF">
+<div class="box">
+    <h1 align="center" style="color:red">Лабораторная работа №3<span class="expand"></span></h1>
+    <h2 align="center" style="color:Green">Настройка локальной сети передачи данных: 
+			Настройка коммутаторов и маршрутизаторов<span class="expand"></span></h2>
+    	
+				<div>
+<h1 align = "center" style="color:blue"> Вариант №1 </h1>
+
+<h3  align = "center" style="color:red"> Расчет диапазона сетей </h3> 
+			 <table class="table">
+ <thead>
+ <tr>
+ <th>   </th>
+ <th align = "" style="color:red">LanA</th>
+ <th align = "" style="color:gray" >LanB</th>
+ <th align = "" style="color:blue">LanC</th>
+ </tr>
+ </thead>
+
+ <tbody>
+ <tr>
+ <td align = "" style="color:gray">Количество узлов</td>
+ <td align = "" style="color:gray"> 9</td>
+ <td align = "" style="color:gray">1765</td>
+  <td align = "" style="color:gray">190</td>
+ </tr>
+
+ <tr>
+ <td align = "" style="color:red" >Subnet</td>
+ <td align = "" style="color:red" >192.168.1.0</td>
+ <td align = "" style="color:red" >172.16.1.0</td>
+  <td align = "" style="color:red" >10.10.1.0</td>
+ </tr>
+ <tr>
+ <td align = "" style="color:green"  >Mask</td>
+ <td align = "" style="color:green">255.255.255.240</td>
+ <td align = "" style="color:green ">255.255.248.0</td>
+  <td align = "" style="color:green">255.255.255.0</td>
+ </tr>
+  <td align = "" style="color:blue">Broadcast</td>
+ <td align = "" style="color:blue" >192.168.1.15</td>
+ <td align = "" style="color:blue">172.16.8.255</td>
+  <td align = "" style="color:blue">10.10.1.255</td>
+ </tr>
+ </tbody>
+ </table>
+		</div>
+
+		<p align = "" style="color:red"> <b align = "" style="color:blue"> ШАГ 1: </b> Разместить на рабочем поле коммутатор и два компьютера и соединить их</p>
+		<p align = "center">	<img src = "Screenshot_232.png"></img></p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 2</b>: Добавить на рабочее поле еще один коммутатор с двумя компьютерами и настроить адресацию из другой подсети</p>
+		<p align = "center">	<img src = "Шаг2.png"></img> </p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 3:</b> Соединить коммутаторы между собой и проверить работоспособность сети (Не работает, так как коммутаторы подсоединяются только к маршрутизаторам)</p>
+		<p align = "center"> <img src = "Шаг3.png" ></p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 4:</b>  Добавить маршрутизатор на рабочее поле</p>
+		<p align = "center"> <img src = "Шаг4.png" >	</p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 5:</b> Добавить на рабочее поле еще один маршрутизатор. Подключить к нему коммутатор и компьютер</p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 6:</b> Соединить между собой маршрутизаторы и настроить между ними сеть с префиксом /30</p>
+		<p align = "center">	<img src = "Шаг4.5.png" ></p>	
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 7:</b>	Проверить работоспособность сети, отправив сообщение сети A в сеть С и из сети В в сеть С</p>
+		<p align = "center">	<img src = "Шаг4.6.png" ></p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 8:</b>	В случае неработоспособности сети объяснить причины</p>
+		<p>На маршрутизаторах не настроена статическая маршрутизация.</p>
+		<p align = "" style="color:red"> <b align = "" style="color:blue">ШАГ 9:</b>	Настроить статическую маршрутизацию между сетями</p>
+		<p> От Router1 к Lan C, От Router0 к Lan A, от Router0 к Lan B:</p>
+		<p align = "center">	<img src = "Шаг4.7С.png" ></p>
+		<p align = "center">	<img src = "Шаг4.8АБ.png" ></p>
+	        <p>Результат:
+	        <p align = "center">	<img src = "Шаг5.png" ></p>
+
+			<h5 align = "" style="color:red">  Расчет диапазона сетей </h4> 
+		
+<div>
+	<table class="table">
+ <thead>
+ <tr>
+ <th>Устройство    </th>
+ <th>IP-адрес</th>
+ <th>Маска</th>
+  <th>Шлюз</th>
+ </tr>
+ </thead>
+
+ <tbody align = "" style="color:blue"> 
+ <tr>
+ 	<td>PC0</td>
+    <td>192.168.1.14</td>
+	<td>255.255.255.240</td>
+ 	<td>192.168.1.1</td>
+ </tr>
+
+ <tr>
+ 	<td>PC1</td>
+    <td>192.168.1.13</td>
+    <td>255.255.255.240</td>
+    <td>192.168.1.1</td>
+ </tr>
+ <tr align = "" style="color:red"> 
+ 	<td>PC2</td>
+ 	<td>172.16.8.254</td>
+ 	<td>255.255.248.0</td>
+    <td>172.16.1.1</td>
+ </tr>
+
+ <tr>   
+  	<td>PC3</td> 
+  	<td>172.16.8.253</td> 
+  	<td>255.255.248.0</td>      
+  	<td>172.16.1.1</td>   
+</tr>
+
+<tr>    
+	<td>PC4</td>      
+	<td>10.10.1.254</td>    
+	<td>255.255.255.0</td>      
+	<td>10.10.1.1</td>    
+</tr>
+
+<tr>    
+	<td>R0 0/0</td>   
+	<td>192.168.1.1</td>    
+	<td>255.255.255.240</td>   
+	 <td></td>             
+	</tr>
+
+	<tr>    
+		<td>R0 0/1</td>   
+		<td>172.16.1.1</td>     
+		<td>255.255.248.0</td>      
+		<td>-</td>             
+	</tr>
+
+	<tr>    
+		<td>R0 0/2</td>   
+		<td>15.15.1.2</td>      
+		<td>255.255.255.252</td>   
+		 <td>-</td>             
+	</tr>
+
+	<tr>    
+		<td>R1 0/1</td>   
+		<td>10.10.1.1</td>      
+		<td>255.255.255.0</td>      
+		<td>-</td>            
+	 </tr>
+
+	 <tr>    
+	 	<td>R1 0/2</td>   
+	 	<td>15.15.1.1</td>      
+	 	<td>255.255.255.252</td>   
+	 	 <td>-</td>            
+	 </tr>
+
+ 
+ </tbody>
+ </table>
+ 	
+		<p align = "" style="color:gray"> Установить банер на сетевое оборудование: banner motd [баннер]</p>
+
+		<p><h5 align = "center"> Проверка работоспособности сети:</h5> </p>
+		<p>	<img align = "center" src = "Screenshot_1.png" ></p>
+		<p align = "center"style="color:red"> Пакеты успешно отправлены</p>
+
+		</div>
+
+
+		</div>
+
+
+	</div>
+		</div>
+	</div>
+
+
+
+	
+ </body>
+ </html>
+
+
