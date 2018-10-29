@@ -53,7 +53,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Токунова	Александра	Сергеевна https://github.com/SashulyaT
 
-Тулякова	Екатерина	Михайловна https://github.com/katerina10210/et_lab_web.github.io
+Тулякова	Екатерина	Михайловна https://github.com/katerina10210/et_lab_web.github.io <b>Модуль 1: 50</b>
 
 Хомяков	Игорь	Сергеевич  https://github.com/igorWEBdeveloper/igorkh.github.io
 
