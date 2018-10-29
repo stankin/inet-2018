@@ -7,7 +7,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Уважаемые одногруппники, можете добавить ссылки на ваши аккаунты рядом с вашей фамилией!
 
-Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io
+Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io Модуль 1: 50
 
 Акользин	Алексей	Сергеевич
 
