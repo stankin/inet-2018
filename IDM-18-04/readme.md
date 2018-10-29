@@ -7,7 +7,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Уважаемые одногруппники, можете добавить ссылки на ваши аккаунты рядом с вашей фамилией!
 
-Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io <b>Модуль 1: 50</b>
+Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io <b>|Модуль 1: 50|</b>
 
 Акользин	Алексей	Сергеевич
 
@@ -35,7 +35,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Князев	Кирилл	Константинович
 
-Коротков	Алексей	Сергеевич https://github.com/Zato4ka https://github.com/Zato4ka/Zato4ka.github.io <b>Модуль 1: 50</b>
+Коротков	Алексей	Сергеевич https://github.com/Zato4ka https://github.com/Zato4ka/Zato4ka.github.io <b>|Модуль 1: 50|</b>
 
 Лебедев	Александр	Михайлович
 
@@ -47,13 +47,13 @@ https://github.com/stankin/inet-2018/invitations
 
 Плотников	Алексей	Александрович
 
-Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>Модуль 1: 50</b>
+Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>|Модуль 1: 50|</b>
 
 Соловьев	Александр	Дмитриевич
 
 Токунова	Александра	Сергеевна https://github.com/SashulyaT  https://sashulyat.github.io/
 
-Тулякова	Екатерина	Михайловна https://github.com/katerina10210/et_lab_web.github.io <b>Модуль 1: 50</b>
+Тулякова	Екатерина	Михайловна https://github.com/katerina10210/et_lab_web.github.io <b>|Модуль 1: 50|</b>
 
 Хомяков	Игорь	Сергеевич  https://github.com/igorWEBdeveloper/igorkh.github.io
 
