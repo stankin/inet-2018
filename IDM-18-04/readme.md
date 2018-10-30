@@ -13,7 +13,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Асроров	Мухаммаджон	Саидахмадович
 
-Ватаниева	Шахноз	Ватаниевна  https://github.com/Vatanieva Vatanieva.github.io/Vatanieva/Index.html
+Ватаниева	Шахноз	Ватаниевна  https://github.com/Vatanieva https://Vatanieva.github.io/Vatanieva/Index.html
 
 Гусев	Юрий	Андреевич
 
