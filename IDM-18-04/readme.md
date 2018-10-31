@@ -51,7 +51,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Соловьев	Александр	Дмитриевич
 
-Токунова	Александра	Сергеевна https://github.com/SashulyaT  https://sashulyat.github.io/
+Токунова	Александра	Сергеевна https://github.com/SashulyaT  https://sashulyat.github.io/ <b>|Модуль 1: 50|</b>
 
 Тулякова	Екатерина	Михайловна https://github.com/katerina10210/et_lab_web.github.io <b>|Модуль 1: 50|</b>
 
