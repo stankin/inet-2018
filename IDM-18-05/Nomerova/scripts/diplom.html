@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Расчетный модуль</title>
+		<style type="text/css">
+			table.result { 
+				width:100%; /*Ширина таблицы*/
+				border-collapse:collapse; 
+				background-color:#7FFFD4;
+				border-width:2px;
+				border-style:solid;
+				border-color:#4682B4;
+				}
+			.result td { /*Скрипт относительно ячейки таблицы*/
+				border:1px solid #4682B4;;
+				text-align: center;
+			}
+			#check {
+				width:100%; 
+				border-collapse:collapse;
+				padding: 10px;
+				border-top: 2px solid #4682B4;
+			}
+			body {
+				overflow: auto;
+				border-color:#4682B4;
+				width:53%;
+				margin: auto;
+				height: 200px;
+				font-family: Verdana, Arial, Helvetica, sans-serif; 
+				font-size: 10pt;
+			}
+			#fs2 {
+				display: none;
+			}
+			ul {
+				list-style-position: inside;
+			}
+			#json {
+				font-size: 8pt;
+			}
+			#json_div{
+				text-align: center;
+			}
+			#btnLoad {
+				width: 150px;
+				display:block;
+				margin:0 auto;
+			}
+			.ptr {
+				margin: 5px; 
+				font-weight: normal;
+				color: #4682B4; 
+				display: none;
+			}
+			input {
+				font-family: Verdana, Arial, Helvetica, sans-serif; 
+				font-size: 10pt;
+			}
+			.field {
+				clear:both; 
+				text-align: left;
+				line-height:25px;
+			}
+			label {
+				float: right;
+				padding-right: 10px;
+			}
+			.main {
+				float:;
+			}
+		</style>
+	</head>
+		<script type="text/javascript">
+		//Функция считывания файла
+		var load = function loadFile(fileinput){ //файл, полученный из html-кнопки
+			var input,fr;
+			input = document.getElementById(fileinput); 
+			if (!input) {
+				alert("Упс, не удалось найти элемент fileinput.");
+			}
+			else if (!input.files) {
+				alert("Этот браузер, похоже, не поддерживает свойство `files` входных файлов.");
+			}
+			else if (!input.files[0]) {
+				alert("Пожалуйста, выберите файл нажатием на кнопку 'Загрузить файл'");
+			}
+			else {
+				myfile = input.files[0];
+				fr = new FileReader();
+				fr.onload = receivedText;
+				fr.readAsText(myfile);
+			}
+			function receivedText(e) {
+				if (fileinput == 'input_block')
+				{
+					block_arr_json = e.target.result;
+				}
+				else 
+				{
+					exec_role_arr_json = e.target.result;
+				}
+			}
+		}
+		//Функция распаковки json
+		var unarchive = function unarchive(result) {
+			if(result == null)
+			{
+				alert("Упс, кажется, у нас нет данных. Пожалуйста, выберите файл нажатием на кнопку 'Загрузить файл'");
+			}
+			else
+			{			
+					mydata = JSON.parse(result);
+					return mydata;
+			}
+		}	
+		//функция создания массива заявок
+		var generate = function generate(num_col) {
+		    var arr = [];
+			var number = 1;
+			var request_time_arrive = 0;
+			var request_delay = Number(document.getElementById('gen_req').value); //получение интервала генерации;
+		    for (var i = 0; i < num_col; i++) {
+		        var row = {
+		        	id: 'id_' + number,
+					time_arrive: request_time_arrive,
+		        	time_start: "",
+		        	flag_start: "Y",
+		        	time_last_upd: "",
+		        	time_finish: "",
+		        	flag_finish: "N",
+		        	cost: ""
+		        	};
+		        arr[i] = row;
+		        number++;
+				request_time_arrive = request_time_arrive + request_delay;
+		    }
+			return arr;
+		}
+		 
+		//функция обработки блоков  Основная функция
+		var block_recursion = function block_recursion() {
+			var cost_finally = 0;
+			var block_arr = unarchive(block_arr_json); //набор блоков с временем обработки
+			var exec_role_arr = unarchive(exec_role_arr_json); //исполнители с ролью, стоимостью и количеством
+			var num_col = document.getElementById('num_col').value; //получение количества заявок
+			var time_cost = document.getElementById('time_cost').value; //получение постоянных издержек
+			var request_arr = generate(num_col); //генерация массива заявок	
+			var exec_arr = exec_arr_create (exec_role_arr); //создаем массив возможных исполнителей			
+			var request_full_journal = [];
+			var row_col = 0;
+			for (var i = 0; i < block_arr.length; i++) //цикл вызова функции обработки блока
+			{
+				var block_arr_info = block_arr[i]; //сохраняем информацию о получаемом блоке
+				var num_block = i;
+				if (i + 1 == block_arr.length) //проставляем флаг финиша
+				{
+					for (var k = 0; k < request_arr.length; k++) 
+					{
+						request_arr[k].flag_finish = 'Y';
+					}
+				}
+				//вызываем функцию обработки блока, чтобы получить затраты при обработке блока
+				var return_arr = block_work(request_arr, exec_arr, block_arr_info, request_full_journal, num_block, row_col); 
+				request_arr = return_arr[0];
+				exec_arr = return_arr[1];
+				request_full_journal = return_arr[2];
+				row_col = return_arr[3];
+			}
+			for (var c = 0; c < request_arr.length; c++) //считаем общие затраты на обработку
+			{
+				cost_finally = cost_finally + request_arr[c].cost;
+			}
+			var full_time = request_arr[num_col-1].time_finish;
+			var full_time_cost = time_cost * (full_time/60);
+			var downtime_cost_full = exec_journal_create(exec_arr, full_time);
+			cost_finally = cost_finally + (downtime_cost_full/60) + full_time_cost;
+			var result_req = cost_finally / num_col;
+			document.getElementById('cost_finally').value = cost_finally.toFixed(2);
+			document.getElementById('result_req').value = result_req.toFixed(2);
+			document.getElementById('full_time').value = (full_time/60).toFixed(2);
+			function compareStart(A, B) {
+				return A.старт - B.старт;
+				}
+			request_full_journal.sort(compareStart);
+			print_array (request_full_journal, 'cost');	
+			print_array(block_arr, 'block');
+			print_array(exec_role_arr, 'role');
+			document.getElementById("fs2").style.display = "block";
+		}
+		//функция создания журнала исполнителей
+		var exec_journal_create = function exec_arr_create (exec_arr, full_time) {
+			var exec_journal = [];
+			var downtime_cost_full = 0;
+			for (var n = 0; n < exec_arr.length; n++) //считаем стоимость времени простоя и создаем журнал исполнителей
+			{	
+				var row = {
+				id_исполнителя: exec_arr[n].id,
+				время_работы: (exec_arr[n].all_time/60).toFixed(2),
+				время_простоя: ((full_time - exec_arr[n].all_time)/60).toFixed(2),
+				};
+		        exec_journal[n] = row;				
+				var downtime_cost_full = downtime_cost_full + ((full_time - exec_arr[n].all_time) * Number(exec_arr[n].downtime_cost));
+			}
+			print_array(exec_journal, 'worker');
+			return downtime_cost_full;
+		}
+		//функция создания массива исполнителей 
+		var exec_arr_create = function exec_arr_create (exec_role_arr) {  
+			var number = 1;
+			var j = 0;
+			var exec_arr = [];
+			var time_release = 0;
+		    for (var z = 0; z < exec_role_arr.length; z++)
+			{
+				var exec_number = Number(exec_role_arr[z].exec_num); // количество исполнителей
+				var name_role = exec_role_arr[z].name_role; //получаем роль
+				var cost_hour = exec_role_arr[z].cost_hour; //получаем стоимость часа работы
+				var downtime_cost = exec_role_arr[z].downtime_cost; //получаем стоимость часа простоя
+					for (var m = 0; m < exec_number; m++)
+					{
+						var row = {
+							id: name_role + '_' + number,
+							name_role: name_role,
+							cost_hour: cost_hour,
+							downtime_cost: downtime_cost,
+							time_release: time_release, //время освобождения
+							all_time: time_release //общее время работы
+						}
+						number++;
+						exec_arr[j] = row;
+						j++;
+					}
+			}
+			return exec_arr;		
+		}
+		
+		//функция обработки блока
+		var block_work = function block_work (request_arr, exec_arr, block_arr_info, request_full_journal, num_block, row_col) {
+			var time = 0;
+			var time_exec = Number(block_arr_info.time_exec); //время обработки заявки в блоке
+			var name_role = block_arr_info.name_role; //получаем роль
+			for (var i = 0; i < request_arr.length; i++) //цикл вызова функции обработки блока
+			{
+				if (request_arr[i].flag_start == 'N' && request_arr[i].flag_finish == 'N')
+				{
+					time = request_arr[i].time_last_upd;
+					var array_save = exec_work (exec_arr, time, block_arr_info); //вызываем функцию для поиска свободного исполнителя
+					var time_result = array_save[1];
+					exec_arr = array_save[0];
+					var indx = array_save[2];
+					request_arr[i].cost = request_arr[i].cost + (Number(exec_arr[indx].cost_hour) * (Number(time_exec)/60));
+					request_arr[i].time_last_upd = time_result;
+				}
+				if (request_arr[i].flag_start == 'Y')
+				{	
+					time = request_arr[i].time_arrive;
+					var array_save = exec_work (exec_arr, time, block_arr_info); //вызываем функцию для поиска свободного исполнителя
+					var time_result = array_save[1];
+					exec_arr = array_save[0];
+					var indx = array_save[2];
+					request_arr[i].time_start = time_result - time_exec;
+					request_arr[i].time_last_upd = time_result;
+					request_arr[i].flag_start = 'N';
+					request_arr[i].cost = Number(exec_arr[indx].cost_hour) * (Number(time_exec)/60);
+				}
+				if (request_arr[i].flag_finish == 'Y')
+				{
+					time = request_arr[i].time_last_upd;
+					var array_save = exec_work (exec_arr, time, block_arr_info); //вызываем функцию для поиска свободного исполнителя
+					var time_result = array_save[1];
+					exec_arr = array_save[0];
+					var indx = array_save[2];
+					request_arr[i].time_last_upd = time_result;
+					request_arr[i].time_finish = time_result;
+					request_arr[i].cost = request_arr[i].cost + (Number(exec_arr[indx].cost_hour) * (Number(time_exec)/60));
+				}
+				//создание окончательного массива заявок для вывода в виде журнала
+				var row = {
+		        	id_заявки: request_arr[i].id,
+					id_блока: num_block,
+					id_исполнителя: exec_arr[indx].id,
+					старт: request_arr[i].time_last_upd - time_exec,
+					финиш: request_arr[i].time_last_upd,
+					VC: request_arr[i].cost.toFixed(2)
+		        	};
+		        request_full_journal[row_col] = row;
+				row_col++;
+			}
+			return [request_arr, exec_arr, request_full_journal, row_col];
+		}
+		
+		//функция обработки массива исполнителей 
+		var exec_work = function exec_work (exec_arr, time, block_arr_info) { 
+			var time_exec = Number(block_arr_info.time_exec); //время обработки заявки в блоке
+			var name_role = block_arr_info.name_role; //получаем роль
+			var k = 0;
+			var min_time = 0;
+			var indx = 0;
+			for (var i = 0; i < exec_arr.length; i++)
+			{
+				if (exec_arr[i].name_role == name_role)
+				{
+					if (k == 0)
+					{
+						k = 1;
+						min_time = exec_arr[i].time_release;
+						indx = i;
+					}
+					if (k == 1)
+					{	
+						if (exec_arr[i].time_release < min_time)
+						{
+							min_time = exec_arr[i].time_release;
+							indx = i;
+						}
+					}
+				}
+			}
+			if (exec_arr[indx].time_release <= time)
+			{
+				var time_result = exec_arr[indx].time_release = time + time_exec;
+				exec_arr[indx].all_time = exec_arr[indx].all_time + time_exec;
+				return [exec_arr, time_result, indx];
+			}
+			else	
+			{
+				var delay = exec_arr[indx].time_release - time;
+				var time_result = exec_arr[indx].time_release = time + time_exec + delay;
+				exec_arr[indx].all_time = exec_arr[indx].all_time + time_exec;
+				return [exec_arr, time_result, indx];
+			}
+		}
+		
+		//функция вывода массива в таблицу
+		function print_array (array, id){
+			var firstTable = document.getElementById(id).querySelector('tr');
+			var table = document.createDocumentFragment();
+			var tr = document.createElement('tr');
+			var inner_array = array[0];
+					for(var p in inner_array) { //создание ячейки tr
+						var td = document.createElement('td');
+						td.innerHTML = p;
+						tr.appendChild(td);
+					}
+			table.appendChild(tr);
+			for (var i = 0; i < array.length; i++) { //создание строки tr
+				var tr = document.createElement('tr');
+				var inner_array = array[i];
+				for(var p in inner_array) { //создание ячейки tr
+					var td = document.createElement('td');
+					td.innerHTML = inner_array[p];
+					tr.appendChild(td);
+				}
+				table.appendChild(tr);
+			}
+			while (document.getElementById(id).firstChild) 
+			{
+				document.getElementById(id).removeChild(document.getElementById(id).firstChild);
+			}
+			document.getElementById(id).appendChild(table);	
+		}
+		//функция списка
+		var ch_disp = function( id )
+			{
+				var el = document.getElementById( id );
+				el.style.display = ( el.style.display == 'block' )? 'none' : 'block';
+			}
+		//функция проверки чекбокса	
+		function showOrHide(Yep, NoNo, know) {
+			Yep = document.getElementById(Yep);
+			NoNo = document.getElementById(NoNo);
+			know = document.getElementById(know);
+			if (Yep.checked) NoNo.style.display = "block";
+			else 
+			{
+				NoNo.style.display = "none";
+				know.style.display = "none";
+			}
+		}
+	</script>
+	<body>
+		<form id="jsonFile" name="jsonFile" enctype="multipart/form-data" method="post">
+			<h2>Расчетный модуль</h2>
+			<fieldset id="fs1">
+				<legend>Ввод данных</legend>
+				<table id="main">
+					<tr class="field">
+						<td><label for="num_col">Количество обрабатываемых заявок</label></td>
+						<td><input class="num_field" type="number" name="num_col" maxlength="25" size="40" id="num_col" /></td>
+					</tr>
+					<tr class="field">
+						<td><label for="gen_req">Интервал генерации заявок (мин)</label></td>
+						<td><input class="num_field" type="number" name="gen_req" maxlength="25" size="40" id="gen_req" /></td>
+					</tr>
+					<tr class="field">
+						<td><label for="time_cost">Постоянные издержки (р/час)</label></td>
+						<td><input class="num_field" type="number" name="time_cost" maxlength="25" size="40" id="time_cost" /></td>
+					</tr>
+					<tr class="field">
+						<td><label for="input_block">Выбор файла json, содержащий блоки</label></td>
+						<td><input type="file" class="file_in" id="input_block" accept=".json" onchange="load('input_block')" /></td>
+					</tr>
+					<tr class="field">
+						<td><label for="input_exec">Выбор файла json, содержащий роли</label></td>
+						<td><input type="file" id="input_exec" class="file_in" accept=".json" onchange="load('input_exec')" /></td>
+					</tr>
+				</table>
+				<div id="json">
+					<DIV class="ptr" id="json_div" onclick="ch_disp('A1')" style="display: block;">Пример заполнения json-файла ▼</DIV>
+					<DIV id="A1" style="display: none">
+						<p>Структура файла блоков:
+						<ul>
+							<li>Время обработки в минутах</li>
+							<li>Роль исполнителя</li>
+						</ul>
+						Пример: [{"time_exec":"2","name_role":"Оператор"},
+								{"time_exec":"15","name_role":"Контроллер"},
+								{"time_exec":"10","name_role":"Исполнитель"},
+								{"time_exec":"10","name_role":"Эксперт"},
+								{"time_exec":"20","name_role":"Исполнитель заключения"}]
+						<Структура файла ролей:
+						<ul>
+							<li>Название роли</li>
+							<li>Количество исполнителей</li>
+							<li>Стоимость часа работы</li>
+							<li>Стоимость простоя исполнителя</li>
+						</ul>
+						Пример: [{"name_role":"Исполнитель","exec_num":"2", "cost_hour":"200", "downtime_cost":"200"},
+									{"name_role":"Эксперт","exec_num":"2", "cost_hour":"400", "downtime_cost":"200"},
+									{"name_role":"Оператор","exec_num":"2", "cost_hour":"100", "downtime_cost":"200"},
+									{"name_role":"Исполнитель заключения","exec_num":"2", "cost_hour":"300", "downtime_cost":"200"},
+									{"name_role":"Контроллер","exec_num":"2", "cost_hour":"100", "downtime_cost":"200"}]</p>
+					</DIV>
+					</br>
+				</div>
+				<table id="check">
+					<tr class="field">
+						<td><input type="checkbox" name="a" id="block_ch" onchange = 'showOrHide("block_ch", "div-block", "A2")';> Отображать обработанный файл блоков</td>
+						<td><input type="checkbox" name="a1" id="role_ch" onchange = 'showOrHide("role_ch", "div-role", "A3")';> Отображать обработанный файл ролей</td>
+					</tr>
+					<tr class="field">
+						<td><input type="checkbox" name="a2" id="cost_req_ch" onchange = 'showOrHide("cost_req_ch", "div-cost", "A4")';> Отображать журнал обработки заявок</td>
+						<td><input type="checkbox" name="a3" id="worker_ch" onchange = 'showOrHide("worker_ch", "div-worker", "A5")';> Отображать журнал занятости исполнителей</td>
+					</tr>
+				</table>
+				<br>
+				<input type="button" id="btnLoad" value="Запуск имитации" class="file_in" onclick="block_recursion()">
+			</fieldset>
+			<fieldset id="fs2">
+				<legend>Результаты</legend>
+				<p>Полные издержки на обработку заявок: <output name="result" id="cost_finally">0</output></p>
+				<p>Полное время обработки: <output name="full_time" id="full_time">0</output></p>
+				<p>Средняя стоимость обработки заявки: <output name="result_req" id="result_req">0</output></p>
+				<div class="ptr" onclick="ch_disp('A2')" id="div-block">Результат обработки файла блоков ▼</div>
+					<div class="ptr" id="A2">
+						<table class="result" id="block"></table>
+					</div>	
+				<div class="ptr" onclick="ch_disp('A3')" id="div-role" >Результат обработки файла ролей ▼</div>
+					<div class="ptr" id="A3">
+						<table class="result" id="role"></table>
+					</div>
+				<div class="ptr" onclick="ch_disp('A4')" id="div-cost" >Журнал обработки заявок ▼</div>
+					<div class="ptr" id="A4">
+						<table class="result" id="cost"></table>
+					</div>
+				<div class="ptr" onclick="ch_disp('A5')" id="div-worker" >Журнал занятости исполнителей ▼</div>
+					<div class="ptr" id="A5">
+						<table class="result" id="worker"></table>
+					</div>
+				<div id="updown"></div>
+			</fieldset>
+		</form>
+	</body>
+</html>
