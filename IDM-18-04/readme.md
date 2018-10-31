@@ -23,7 +23,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Ерастов	Фёдор	Андреевич
 
-Захарова	Софья	Андреевна    https://github.com/sofiazakharova <b>|Модуль 1: 50|</b>
+Захарова	Софья	Андреевна    https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html <b>|Модуль 1: 50|</b>
 
 Иванов	Владислав	Александрович
 
