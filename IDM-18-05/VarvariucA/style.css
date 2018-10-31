@@ -1,0 +1,358 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #e4e4e4 url("images/bg.jpg") repeat;
+	font-family: Arial;
+	font-size: 14px;
+	color: #4b4b4b;
+	line-height: 20px;
+	text-shadow: 0 1px 0 white;
+}
+
+::selection {
+	background-color: #a12424;
+	color: white;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background-color: #a12424;
+	color: white;
+	text-shadow: none;
+}
+
+a {
+	color: #b60000;
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: black;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h1+p,h2+p,h3+p {
+	margin-top: 3px;
+}
+
+a img {
+	border: none;
+	outline: none;
+}
+
+ul,ol,dl {
+	margin: 0 0 0 30px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	font-style: italic;
+}
+
+input,button,textarea {
+	display: inline-block;
+}
+
+input[type=text],textarea,select {
+	padding: 5px;
+	height: auto;
+	border: 1px solid #bcbcbc;
+}
+
+input[type=text],textarea,button {
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+
+input[type=checkbox],input[type=radio] {
+	margin: 3px 5px 0 0;
+	float: left;
+}
+
+input[type=text] {
+	width: 200px;
+}
+
+select {
+	width: 210px;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+}
+
+label {
+	display: block;
+	vertical-align: middle;
+	color: black;
+}
+
+input:focus,button:focus,textarea:focus,select:focus {
+	outline: none;
+	border: 1px solid #999999;
+	box-shadow: none;
+}
+
+input:-moz-placeholder {
+  color: #c0c0c0;
+}
+
+input::-webkit-input-placeholder {
+  color: #c0c0c0;
+}
+
+button {
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #a12424;
+	background-repeat: no-repeat;
+    background-image: -ms-linear-gradient(top, #b92c2c, #a12424);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b92c2c), to(#a12424));
+    background-image: -webkit-linear-gradient(top, #b92c2c, #a12424);
+    background-image: -o-linear-gradient(top, #b92c2c, #a12424);
+    background-image: linear-gradient(top, #b92c2c, #a12424);
+    background-image: -moz-linear-gradient(top, #b92c2c, #a12424);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#b92c2c', endColorstr='#a12424', GradientType=0);
+	border: 1px solid #a12424;
+	padding: 8px 20px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+	height: 37px;
+	text-shadow: none;
+}
+
+button:hover {
+	background-position: 0 -15px;
+}
+
+*:first-child+html button {
+	width: 90px;
+}
+
+.row {
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.col {
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+table.bordered {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	text-align : center;
+}
+
+table.bordered td {
+	border: 1px solid black;
+}
+
+table.bordered th {
+	border: 1px solid black;
+}
+
+table.bordered tbody tr:hover {
+	background-color: #f2f2f2;
+}
+
+.wrapper {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+	
+}
+/*Шапка*/
+.header {
+	border-bottom: 13px solid #a12424;
+	padding: 40px 0 0 0;
+	overflow: hidden;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	color: #a12424;
+	font-weight: bold;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+*:first-child+html .logo a {
+	line-height: normal;
+}
+
+.logo p {
+	margin-top: -3px;
+}
+
+.black {
+	color: black;
+}
+
+.gray {
+	color: #a3a3a3;
+	font-size: 18px;
+}
+
+.logo p {
+	font-size: 12px;
+}
+
+/*Навигация*/
+ul.nav {
+	margin: 0;
+	padding: 20px 0 0 0;
+	overflow: hidden;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	list-style: none;
+	padding: 0 0 0 35px;
+}
+
+ul.nav li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 0 0 0 35px;
+	display: block;
+	color: black;
+}
+
+ul.nav li a.active {
+	color: #a12424;
+}
+
+ul.nav li a:hover {
+	color: #a12424;
+}
+/*Контент*/
+.content {
+	padding: 20px 0;
+}
+/*Правая колонка*/
+.rightCol {
+	float: right;
+	margin-left: 20px;
+	width: 220px;
+}
+
+ul.rightNav {
+	margin: 0 0 20px 0;
+	padding: 0;
+	border: 1px solid #bcbcbc;
+	background-color: #ececec;
+}
+
+ul.rightNav li {
+	list-style: none;
+}
+
+ul.rightNav li a {
+	color: black;
+	text-decoration: none;
+	padding: 8px 10px 8px 30px;
+	display: block;
+	border-top: 1px solid #bcbcbc;
+	background: url("images/arrow-right.png") 13px 50% no-repeat;
+}
+
+ul.rightNav li:first-child a {
+	border-top: none;
+}
+
+ul.rightNav li a:hover {
+	background-color: white;
+}
+
+.block {
+	margin: 0 0 20px 0;
+	border: 1px solid #a12424;
+	background-color: #ececec;
+}
+
+.block>h3 {
+	padding: 8px 10px;
+	color: white;
+	background-color: #a12424;
+	text-shadow: none;
+}
+
+.block p {
+	color: black;
+	margin: 0;
+	padding: 10px 10px 0;
+}
+
+.block a.more {
+	padding-bottom: 10px;
+	display: block;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.main img {
+	margin-right: 15px;
+	border: 10px solid #cfcfcf;
+}
+/*Подвал*/
+#footer {
+    left: 200; bottom: 0;
+}
+
+.footer p {
+	
+}
