@@ -1,2 +1,2 @@
 Отчет по дисциплине "Интернет-технологии"
-elizavetakovyazina.github.io
+https://elizavetakovyazina.github.io/
