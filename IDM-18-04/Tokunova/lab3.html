@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Лабораторная работа №3</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700" rel="stylesheet">
+<style type="text/css"></style>
+</head>
+<body>
+<div class="d4">
+  <nav>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="lab1.html">Отчет 1</a></li>
+      <li><a href="lab2.html">Отчет 2</a></li>
+      <li><a href="lab3.html" class="z">Отчет 3</a></li>
+    </ul>
+  </nav>
+  <p class="t1">Отчет по лабораторной работе №3</p>
+<p class="t3">Задание на лабораторную работу:</p>
+  <ol class="t5">
+    <li>Разместить на рабочем поле коммутатор и два компьютера и соединить их.</li>
+    <li>Подключить консольный кабель для настройки оборудования.</li>
+    <li>Настроить адресацию на добавленных компьютерах согласно таблице ниже без шлюза по умолчанию.</li>
+    <li>Выполнить проверку работоспособности сети.</li>
+    <li>Добавить на рабочее поле еще один коммутатор с двумя компьютерами и настроить адресацию из другой подсети.</li>
+    <li>Соединить коммутаторы между собой и проверить работоспособность сети.</li>
+    <li>В случае неработоспособности сети объяснить причины.</li>
+    <li>Добавить маршрутизатор на рабочее поле.</li>
+    <li>Настроить интерфейсы маршрутизатора для существующих подсетей.</li>
+    <li>Проверить работоспособность сети.</li>
+    <li>В случае неработоспособности сети объяснить причины.</li>
+    <li>Указать шлюз по умолчанию и отправить сообщение.</li>
+    <li>Добавить на рабочее поле еще один маршрутизатор.</li>
+    <li>Подключить к нему коммутатор и компьютер.</li>
+    <li>Настроить сетевые настройки согласно таблице ниже.</li>
+    <li>Соединить между маршрутизаторы и настроить между ними сеть с префиксом /30.</li>
+    <li>Проверить работоспособность сети, отправив сообщение сети A в сеть С и из сети В в сеть С.</li>
+    <li>В случае неработоспособности сети объяснить причины.</li>
+    <li>Настроить статическую маршрутизацию между сетями.</li>
+    <li>Настроить на сетевых устройствах пароли для привилегированного режима.</li>
+    <li>Настроить пароли на сетевых устройствах пароли на подключение через консоль и telnet.</li>
+    <li>Установить баннер на сетевое оборудование.</li>
+    <li>Проверить работу удаленного подключения.</li>
+  </ol>
+  <p class="t5"> <strong>Вариант 8.</strong><br>
+    В соответствии с вариантом получаются:<br>
+    LanA 192.168.8.0/23<br>
+    LanB 172.16.10.0/28<br>
+    LanC 10.10.10.16/28<br>
+    Для маршрутизаторов 15.15.8.0/30 </p>
+  <!-- ниже код из файла с заданием в виде таблицы -->
+  <div align=center>
+    <table border=1 cellspacing=0 cellpadding=0 width="100%">
+      <thead>
+        <tr>
+          <td width="25%" rowspan=2 valign=top bgcolor="#EE75F3"><p  align=center style='text-align:center;'><b><span style='font-size:14.0pt;;"Times New Roman"'>Номер варианта</span></b></p></td>
+          <td width="75%" colspan=3 valign=top bgcolor="#EE75F3"><p  align=center style='text-align:center;'><b><span style='font-size:14.0pt;;"Times New Roman"'>Количество узлов в сети</span></b></p></td>
+        </tr>
+        <tr>
+          <td width="25%" valign=top bgcolor="#EE75F3"><p  align=center style='text-align:center;'><b><span
+    style='font-size:14.0pt;;"Times New Roman";'>LAN</span></b><b><span style='font-size:14.0pt;
+   ;"Times New Roman"'> </span></b><b><span style='font-size:14.0pt;'>A</span></b></p></td>
+<td width="25%" valign=top bgcolor="#EE75F3"><p  align=center style='text-align:center;'><b><span style='font-size:14.0pt;"Times New Roman";'>LAN</span></b><b><span style='font-size:14.0pt;"Times New Roman"'> </span></b><b><span style='font-size:14.0pt;'>B</span></b></p></td>
+          <td width="25%" valign=top bgcolor="#EE75F3"><p  align=center style='text-align:center;'><b><span style='font-size:14.0pt;;"Times New Roman";'>LAN</span></b><b><span style='font-size:14.0pt;"Times New Roman"'> </span></b><b><span style='font-size:14.0pt;'>C</span></b></p></td>
+        </tr>
+      </thead>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>1</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>9</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>1765</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>190</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>2</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>5</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>965</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>1024</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>3</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>12</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>457</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>78</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>4</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>20</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>201</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>200</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>5</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>35</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>120</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>512</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>6</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>67</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>13</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>675</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>7</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>137</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>30</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>37</span></p></td>
+      </tr>
+      <tr style="background:#EF71FF">
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><strong><span style='font-size:14.0pt;;"Times New Roman"'>8</span></strong></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><strong><span style='font-size:14.0pt'>323</span></strong></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><strong><span style='font-size:14.0pt'>13</span></strong></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><strong><span style='font-size:14.0pt'>11</span></strong></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>9</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>517</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>6</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>126</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>10</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>1027</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>210</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>7</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>11</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>4</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>624</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>1654</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>12</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>400</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>900</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt'>3000</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;'>13</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>61</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>29</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>289</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;'>14</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>164</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>590</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>1000</span></p></td>
+      </tr>
+      <tr>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;
+  ;'>15</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>854</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>14</span></p></td>
+        <td width="25%" valign=top><p  align=center style='text-align:center;'><span style='font-size:14.0pt;;"Times New Roman"'>169</span></p></td>
+      </tr>
+    </table>
+  </div>
+  <p class="t3">Было сделано:</p>
+  <ul class="t5">
+    <li>Был размещён на рабочем поле коммутатор и два компьютера.</li>
+    <li>Подключен консольный кабель.</li>
+    <li>Настроена адресацию на добавленных компьютерах без шлюза по умолчанию.</li>
+    <li>Проверена работоспособность сети.</li>
+    <li>Добавлен на рабочее поле еще один коммутатор с двумя компьютерами и настроена адресацию из другой подсети.</li>
+    <li>Соединены коммутаторы между собой и проверена работоспособность сети.</li>
+    <li>Добавлен маршрутизатор на рабочее поле.</li>
+    <li>Настроены интерфейсы маршрутизатора для существующих подсетей.</li>
+    <li>Проверена работоспособность сети.</li>
+    <li>Настроен шлюз по-умолчанию и отправлено тестовое сообщение.</li>
+    <li>Добавлен на рабочее поле ещё один маршрутизатор и подключён коммутатор и компьютер.</li>
+    <li>Настроены сетевые параметры согласно выбранному варианту.</li>
+    <li>Были соединены маршрутизаторы и настроена между ними сеть с маской /30.</li>
+    <li>Проверена работоспособность сети путём отправки сообщения из сети A в сеть С и из сети В в сеть С
+    <li>Настроена статическая маршрутизация между сетями.</li>
+    <li>Настроены пароли для привилегированного режима на сетевых устройствах.</li>
+    <li>Настроены пароли на подключение через консоль и telnet на сетевых устройствах.</li>
+    <li>Установлен баннер.</li>
+    <li>Проверена работа удалённого подключения.</li>
+  </ul>
+  </p>
+  <div class="footer"> <br>
+    <a href="https://github.com/SashulyaT/sashulyaT.github.io" class="d1"></a><br>
+    <a href="https://github.com/SashulyaT/sashulyaT.github.io/wiki" class="c1"></a>
+    <p align="center"><strong>Токунова А.С. 2018</strong></p>
+  </div>
+</div>
+</body>
+</html>
