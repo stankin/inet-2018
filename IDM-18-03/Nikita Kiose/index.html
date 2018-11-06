@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&amp;subset=cyrillic" rel="stylesheet">
+    
+    <style type="text/css">
+      
+      .outer:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+
+      .inner {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      /* добавим горизонтальное центрирование */
+      .outer {
+        text-align: center;
+      }
+      
+      #centered {
+        margin: auto;
+        width: 50%;
+        padding: 14px;
+        height: 600px;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+      }
+      
+      #content {
+        
+      }
+      
+      .shadow {
+        -webkit-box-shadow: 0px 10px 24px rgba(0, 0, 0, .2);
+        -moz-box-shadow:    0px 10px 24px rgba(0, 0, 0, .2);
+        box-shadow:         0px 10px 24px rgba(0, 0, 0, .2);
+        -webkit-transition: width .5s;
+        transition: width .5s;
+        transition-timing-function: ease-in;
+      }
+      
+      .shadow:hover {
+        -webkit-box-shadow: 0px 5px 12px rgba(0, 0, 0, .2);
+        -moz-box-shadow:    0px 5px 12px rgba(0, 0, 0, .2);
+        box-shadow:         0px 5px 12px rgba(0, 0, 0, .2);
+        transition-timing-function: ease-out;
+      }
+      
+      head, body {
+        background-color: #F5F5F5;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #202020;
+      }
+      
+      h1 {
+        font-weight: 300;
+      }
+      
+      h3 {
+        font-weight: 400;
+      }
+      
+      h4 {
+        font-weight: 500;
+      }
+      
+      h1 span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #808080;
+      }
+      
+    </style>
+    
+    <title>Никита Киосе</title>
+    
+  </head>
+  
+  <body>
+
+    <div id="centered" class="shadow">
+      <div id="content">
+      
+        <h1>Никита Киосе<br/>
+          <span>ИДМ-18-01</span>
+        </h1>
+        
+        <a href="https://github.com/crotopus">Мой профиль</a>
+        <a href="https://github.com/stankin/inet-2018">Основной репозиторий</a>
+        <a href="https://github.com/crotopus/inet-2018">Мой форк</a>
+
+        <h3>Лабораторная работа №1</h3>
+
+        <h4>Цель:</h4>
+        <p>
+          Создание персональной страницы на GitHub.
+        </p>
+
+        <ol>
+          <li>Регистрация на GitHub.</li>
+          <li>Подключиться к репозиторию</li>
+          <li>Создать личную страницу</li>
+          <li>Разместить код исходной страницы в репозитории</li>
+          <li>Разместить страничку на хостинге</li>
+        </ol>
+      
+      </div>
+    </div>
+   
+  </body>
+</html>
