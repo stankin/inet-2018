@@ -12,7 +12,7 @@ https://github.com/stankin/inet-2018/invitations
 | :---:   | :-:  |   :-:   |   :-:    |  :-:   |    :-:   |   :-:    |
 | Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/???) | [Проект](-) | - | - |
 | Горюнов Антон Дмитриевич | -  | By the way to Dmitrov | [Страница](https://github.com/gerafko/) | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
-| Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov/InternetTecnology/wiki) | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
+| Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://danilkilyakov.github.io/) | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Проект](-) | - | - |
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | [Проект](-) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Проект](-) | - | - |
