@@ -13,7 +13,7 @@ https://github.com/stankin/inet-2018/invitations
 | Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/???) | |[Проект](-) | - | - |
 | Горюнов Антон Дмитриевич | -  | By the way to Dmitrov | [Страница](https://github.com/gerafko/) | | [Проект](https://github.com/gerafko/Rails-Project) | | - | - |
 | Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov/InternetTecnology/wiki) | | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
-| Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://vlaterz.github.io) | | [Проект](-) | - | - |
+| Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github/vlaterz) | [Отчет](https://vlaterz.github.io) | [Проект](-) | - | - |
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | | [Проект](-) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | | [Проект](-) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | | [Проект](-) | - | - |
