@@ -19,4 +19,4 @@ https://github.com/stankin/inet-2018/invitations
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | | [Проект](-) | - | - |
 | Патрушева Алина Павловна | -  | - | [Страница](https://github.com/realoveola) | | [Проект](-) | - | - |
 | Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Отчет](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | - |
-| Рубцов Андрей Александрович | -  | Животные | [Страница](https://lokvest.github.io/index.html) | | [Проект](-) | 50 | - |
+| Рубцов Андрей Александрович | -  | Животные | [Страница](https://github.com/lokvest) | [Отчет](https://lokvest.github.io/index.html) | [Проект](-) | 50 | - |
