@@ -9,7 +9,7 @@ https://github.com/stankin/inet-2018/invitations
 
 
 | Студент | Роль | Команда | Страница пользователя | Страница-отчет | Проект | Модуль 1 | Модуль 2 |
-| :---:   | :-:  |   :-:   |   :-:    |  :-:   |    :-:   |   :-:    |
+| :---:   | :-:  |   :-:   |   :-:    |  :-: |  :-:   |    :-:   |   :-:    |
 | Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/???) | |[Проект](-) | - | - |
 | Горюнов Антон Дмитриевич | -  | By the way to Dmitrov | [Страница](https://github.com/gerafko/) | | [Проект](https://github.com/gerafko/Rails-Project) | | - | - |
 | Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov/InternetTecnology/wiki) | | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
