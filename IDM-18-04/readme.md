@@ -15,7 +15,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Ватаниева	Шахноз	Ватаниевна  https://github.com/Vatanieva https://Vatanieva.github.io/Vatanieva/Index.html <b>|Модуль 1: 50|</b>
 
-Гусев	Юрий	Андреевич
+Гусев	Юрий	Андреевич https://github.com/gusev-stankin-idm1804  https://gusev-stankin-idm1804.github.io/
 
 Гущина	Полина	Федоровна    https://github.com/norowaretta
 
