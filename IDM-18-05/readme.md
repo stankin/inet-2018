@@ -6,7 +6,7 @@
 |Борисов Георгий Леонидович |[Страница](https://iwepop.github.io)   | 30 |  |
 |Варварюк Александр Викторович | [Страница](https://varvariuca.github.io) | 54 |  |
 |Васильев Дмитрий Максимович | [Страница](https://DimitriiVasilev.github.io) | 50 |  |
-|Верповский Александр Валерьевич | [Страница](https://klockdev.github.io/verpovskii/) |  | |  |  |
+|Верповский Александр Валерьевич | [Страница](https://klockdev.github.io/verpovskii/) | 52 | |  |  |
 |Годунов Антон Владимирович | [Страница](https://piohi.github.io/)  | 45 |  |
 |Гуров Иван Сергеевич |[Страница](https://gurovivan.github.io/gurovivan/)  |50   |  |
 |Искендеров Рамик Имран оглы | [Страница](https://r-5321.github.io/) | 48  |  |
