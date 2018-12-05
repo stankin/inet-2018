@@ -1,0 +1,381 @@
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=ansi" />
+ <title>Веселов Н.К. Отчет</title></head>
+ <style>
+	 .box {
+	width: 1100px;
+	margin: 25px auto;
+	background: linear-gradient(to top,#d2d2d2,#acd7e5);
+	border: 1px solid #d1d1d1;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	-webkit-box-shadow: 0px 0px 10px #ddd;}
+	 
+	 .box4 {
+	width: 900px;
+	margin: 25px auto;
+	background: linear-gradient(to top,#d2d2d2,#acd7e5);
+	border: 1px solid #d1d1d1;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	 -webkit-box-shadow: 0px 0px 10px #ddd;}
+	 .box1
+	 {
+	width: 300px;
+	margin-left: 75%;
+	background: linear-gradient(to top,#d3d3d3,#add8e6);
+	border: 1px solid #d1d1d1;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	-webkit-box-shadow: 0px 0px 10px #ddd;
+	 }
+	  .box3
+	 {
+	width: 1250px;
+	margin: 25px auto;
+	background: linear-gradient(to top #add8e6,#d3d3d3);
+	border: 1px solid #d1d1d1;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	-webkit-box-shadow: 0px 0px 10px #ddd;
+	 }
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+  body
+{ margin-left: 50px;
+  margin-right: 50px;
+  background: linear-gradient(to top,#d3d3d3,#add8e6);}
+    A:link
+{text-decoration:none;
+color:blue;}
+A:visited
+{text-decoration:none;
+color:black;}
+A:hover
+{color:white;}
+
+#slides{
+	position: relative;
+	height: 350px;
+	width: 650px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+.controls{
+	display: none;
+}
+
+.slide{
+	font-size: 40px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+  
+  background-size: cover;
+}
+.slide:nth-of-type(1){
+	background-color: #add8e6;
+  background-image: url ('https://asay1515.github.io/slides/01.JPG');
+}
+.slide:nth-of-type(2){
+	background-color: orange;
+  background-image: url('https://asay1515.github.io/slides/01.JPG');
+}
+.slide:nth-of-type(3){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/02.JPG');
+}
+	 .slide:nth-of-type(4){
+	background-color: blue;
+  background-image: url('https://asay1515.github.io/slides/03.JPG');
+}
+	 .slide:nth-of-type(5){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/04.JPG');
+}
+	 .slide:nth-of-type(6){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/05.JPG');
+}
+	 .slide:nth-of-type(7){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/06.JPG');
+}
+	 .slide:nth-of-type(8){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/07.JPG');
+}
+	 .slide:nth-of-type(9){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/08.JPG');
+}
+	 .slide:nth-of-type(10){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/09.JPG');
+}
+	 .slide:nth-of-type(11){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/10.JPG');
+}
+	 .slide:nth-of-type(12){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/11.JPG');
+}
+	 .slide:nth-of-type(13){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/12.JPG');
+}
+	 .slide:nth-of-type(14){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/13.JPG');
+}
+	 .slide:nth-of-type(15){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/14.JPG');
+}
+	 .slide:nth-of-type(16){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/15.JPG');
+}
+	 .slide:nth-of-type(17){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/16.JPG');
+}
+	 .slide:nth-of-type(18){
+	background-color: green;
+  background-image: url('https://asay1515.github.io/slides/17.JPG');
+}
+
+.controls{
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 20px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 10px 0px 0px 10px;
+  width: 70px;
+}
+.controls:hover,
+.controls:focus{
+  background: #eee;
+  color: #333;
+}
+.container{
+  position: relative;
+}
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
+}
+</style>
+<body>
+<div class="box3">	
+ <h1><center>Страница-отчет по дисциплине Интернет и техноногии</center></h1>
+	</div>
+	<div class="box1">
+  <h4>Студент: Веселов Н.К.</h4>
+  <h4>Группа: ИДМ-18-01</h4>
+ </div>
+ 
+<div width=50% align="left">
+	<div class="box">
+ <h1 align="center">Лабораторная работа 1</h1>
+ <h4>Задачи:</h4>
+ <ol>
+   <li>Зарегистрироваться на GitHub;</li>
+   <li>Вставить ссылки на материалы прошлого семестра</li>
+   <li>Подключиться к общему репозиторию Inet-2018;</li>
+   <li>Разработать личную страницу-отчет;</li>
+   <li>Написать wiki-статью по 8 билету 2 вопрос.</li>
+ </ol>
+   <h4>Выполнение работы:</h4>
+    <ol>
+      <li>Создана <a href=https://github.com/foxy1303>страница пользователя</a> на GitHub;</li>
+      <li>Страница прошлого года была удалена;</li>
+      <li><a href="https://github.com/asay1515/asay1515.github.io/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5:-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-UML">Ссылка на статью прошлого года</a></li>
+      <li>Разработа <a href="https://foxy.github.io/index.html">страница-отчет</a>;</li>
+      <li>Страница выгружена в <a href="https://github.com/stankin/inet-2018/tree/master/IDM-18-01/Veselov">общий репозиторий</a>.</li>
+</ol>
+ </div>
+
+ <hr>
+	<div class="box">
+  <h1 align="center">Лабораторная работа 2</h1>
+ <ol>
+  <h4>Задачи:</h4>
+   <li>Сформировать команду для разработки проекта;</li>
+   <li>Определить роли команды;</li>
+   <li>Разработать прототип приложения.</li>
+	</ol>
+	 <h4>Выполнение:</h4>
+	 <ol>
+         <li>Была сформирована команда из четырех человек: 
+         <ol>СП |<a href="https://github.com/KeryB"> Булычев К.В.</a></ol>
+             <ol>КО, ПП | <a href="https://github.com/foxy1303"> Веселов Н.К.</a></ol>
+             <ol>РП, АД,ПП | <a href="https://github.com/Jet313"> Ружейников А.А.</a></ol>
+             <ol>РП,АД | <a href="https://github.com/vyachsed"> Седых В.А.</a></ol>
+		 <li>Коллективным решением было придумано название команды <a href="https://github.com/vyachsed/desktop/blob/master/README.md">"СПИМ"</a>.</li>
+		 <li>Было принято решение - разработать прототип универсального тонкого клиента для организации рабочего места в соответствии с проектной ролью сотрудника. Данный прототип отслеживает появление нецензурной лексики и не пропускает комментарии при ее наличии, при повторном нарушении правил участник блокируется на 15 минут.</li>
+		 <li>По окончанию командной работы был создан проект <a href="https://github.com/vyachsed/desktop">"Из-за работы проекта с базой данных, запуск его вне компьютера, временно невозможен"</a>.</li>
+		 
+	 </ol>
+		</div>
+    <hr>
+	<div class="box">
+    <h2 class="margin-b-0">Лабораторная работа №3</h2>
+                          
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-90">
+                            
+                          <p>Настройка коммутаторов и маршрутизаторов.</p> 
+                          
+                <h3 class="margin-b-0">Вариант 3</h3><br>
+                <p>Расчет диапазонов подсетей.</p>
+                <table  width="100%"  rules="rows">
+                <tr  bgcolor="lavender"><th> - </th><th>Lan A</th><th>Lan B</th><th>Lan C</th></tr>
+                <tr bgcolor="Honeydew"><th>Кол-во узлов</th><th>12</th><th>457</th><th>78</th></tr>
+                <tr bgcolor="lavender"><th>Subnet</th><th>192.168.3.0</th><th>172.16.3.0</th><th>10.10.3.0</th></tr>
+                <tr bgcolor="Honeydew"><th>Mask</th><th>255.255.255.240</th><th>255.255.254.0</th><th>255.255.255.128</th></tr>
+                <tr bgcolor="lavender"><th>Broadcast</th><th>192.168.3.15</th><th>172.16.4.255</th><th>10.10.3.127</th></tr>
+                </table>
+                <ol> 
+               <li> <p>Разместить на рабочем поле коммутатор и два компьютера и соединить их</p>
+                <img  src ="img/seti2.jpg"><br></li>
+                <li><p>Добавить на рабочее поле еще один коммутатор с двумя компьютерами и настроить адресацию из другой подсети</p></li>
+                <img src ="img/seti3.jpg"><br>
+                <li><p>Соединить коммутаторы между собой и проверить работоспособность сети (Не работает, так как коммутаторы подсоединяются только к маршрутизаторам)</p></li>
+                <img src ="img/seti1.jpg"><br>
+                <li><p>Добавить маршрутизатор на рабочее поле</p></li>
+                <img  src ="img/seti4.jpg"><br> 
+                <li><p>Добавить на рабочее поле еще один маршрутизатор. Подключить к нему коммутатор и компьютер</p></li>
+                <img  src ="img/seti5.jpg"><br>
+              </ol> 
+                <table  width="100%"  rules="rows">
+                <tr bgcolor="lavender"><th>Устройство</th><th>IP - адрес</th><th>Маска</th><th>Шлюз</th></tr>
+                <tr bgcolor="Honeydew"><th>PC0</th><th>192.168.3.14</th><th>255.255.255.240</th><th>192.168.3.1</th></tr>
+                <tr bgcolor="lavender"><th>PC1</th><th>192.168.3.13</th><th>255.255.255.240</th><th>192.168.3.1</th></tr>
+                <tr bgcolor="Honeydew"><th>PC2</th><th>172.16.4.254</th><th>255.255.254.0</th><th>172.16.3.1</th></tr>
+                <tr bgcolor="lavender"><th>PC3</th><th>172.16.4.253</th><th>255.255.254.0</th><th>172.16.3.1</th></tr>
+                <tr bgcolor="Honeydew"><th>PC4</th><th>10.10.3.126</th><th>255.255.255.128</th><th>10.10.3.1</th></tr>
+                <tr bgcolor="lavender"><th>R0 0/0</th><th>192.168.3.1</th><th>255.255.255.240</th><th> - </th></tr>
+                <tr bgcolor="Honeydew"><th>R0 0/1</th><th>172.16.3.1</th><th>255.255.254.0</th><th> - </th></tr>
+                <tr bgcolor="lavender"><th>R0 0/2</th><th>15.15.3.2</th><th>255.255.255.252</th><th> - </th></tr>
+                <tr bgcolor="Honeydew"><th>R1 0/1</th><th>10.10.3.1</th><th>255.255.255.128</th><th> - </th></tr>
+                <tr bgcolor="lavender"><th>R1 0/2</th><th>15.15.3.1</th><th>255.255.255.252</th><th> - </th></tr>
+                </table>
+                <p>Настройка статической маршрутизации производится при помощи команды: ip route [сеть назначения] [маска] [маршрут]</p>
+                <p>Установить банер на сетевое оборудование: banner motd [баннер]</p>
+                <h3 class="margin-b-0">Проверка работоспособности сети:</h3>
+                <img  src ="img/seti6.jpg" width="70%"><br> 
+
+                        </div>
+ </div>
+                      
+                    </div>
+
+
+	<hr>
+ <div class="box">
+	<h1 align="center">Подготовка к экзамену</h1>
+	 <li>Написана <a href="https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-10">wiki-статья</a> 8 билета </li>
+
+	<script type="text/javascript">
+var controls = document.querySelectorAll('.controls');
+for(var i=0; i<controls.length; i++){
+	controls[i].style.display = 'inline-block';
+}
+
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+
+function nextSlide(){
+	goToSlide(currentSlide+1);
+}
+
+function previousSlide(){
+	goToSlide(currentSlide-1);
+}
+
+function goToSlide(n){
+	slides[currentSlide].className = 'slide';
+	currentSlide = (n+slides.length)%slides.length;
+	slides[currentSlide].className = 'slide showing';
+}
+
+
+var playing = true;
+var pauseButton = document.getElementById('pause');
+
+function pauseSlideshow(){
+	pauseButton.innerHTML = '&#9658;'; // play character
+	playing = false;
+	clearInterval(slideInterval);
+}
+
+function playSlideshow(){
+	pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
+	playing = true;
+	slideInterval = setInterval(nextSlide,2000);
+}
+
+pauseButton.onclick = function(){
+	if(playing){ pauseSlideshow(); }
+	else{ playSlideshow(); }
+};
+
+var next = document.getElementById('next');
+var previous = document.getElementById('previous');
+
+next.onclick = function(){
+	pauseSlideshow();
+	nextSlide();
+};
+previous.onclick = function(){
+	pauseSlideshow();
+	previousSlide();
+};
+ </script>
+
+
+</body>
+
+</html>
