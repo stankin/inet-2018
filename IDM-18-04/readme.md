@@ -47,7 +47,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Плотников	Алексей	Александрович
 
-Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>|Модуль 1: 50|</b>
+Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>|Модуль 1: 50|</b> <b>|Модуль 2: 50|</b>
 
 Соловьев	Александр	Дмитриевич
 
