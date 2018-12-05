@@ -7,7 +7,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Уважаемые одногруппники, можете добавить ссылки на ваши страницы (отчеты) рядом с вашей фамилией!
 
-Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io <b>|Модуль 1: 50| Модуль 2: 50|</b>
+Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io <b>|Модуль 1: 50 | Модуль 2: 50|</b>
 
 Акользин	Алексей	Сергеевич
 
@@ -47,7 +47,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Плотников	Алексей	Александрович
 
-Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>|Модуль 1: 50| Модуль 2: 50|</b>
+Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>|Модуль 1: 50 | Модуль 2: 50|</b>
 
 Соловьев	Александр	Дмитриевич
 
