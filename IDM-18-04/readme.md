@@ -21,7 +21,7 @@ https://github.com/stankin/inet-2018/invitations
 
 Ежов	Денис	Олегович
 
-Ерастов	Фёдор	Андреевич <b>|Модуль 1: 50 | Модуль 2: 50|</b>
+Ерастов	Фёдор	Андреевич https://erastov.github.io/ <b>|Модуль 1: 50 | Модуль 2: 50|</b>
 
 Захарова	Софья	Андреевна    https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html <b>|Модуль 1: 50|</b>
 
