@@ -21,4 +21,4 @@ https://github.com/stankin/inet-2018/invitations
 | Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Отчет](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | - |
 | Рубцов Андрей Александрович | -  | Животные | [Страница](https://github.com/lokvest) | [Отчет](https://lokvest.github.io/index.html) | [Проект](-) | 50 | - |
 | Мочалина Мария Андреевна | - | Животные | [Страница](https://github.com/MaryReb) | [Отчет](https://maryreb.github.io/mochalina.github.io/index.html) | [Проект](-) | 50 | - |
-| Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](-) | - | - |
+| Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](https://realoveola.github.io/Othello/index.html) | - | - |
