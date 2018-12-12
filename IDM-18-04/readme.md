@@ -7,59 +7,32 @@ https://github.com/stankin/inet-2018/invitations
 
 Уважаемые одногруппники, можете добавить ссылки на ваши страницы (отчеты) рядом с вашей фамилией!
 
-Адамова	Юлия	Сергеевна https://github.com/YuliaAdamova  https://YuliaAdamova.github.io <b>|Модуль 1: 50 | Модуль 2: 50|</b>
-
-Акользин	Алексей	Сергеевич
-
-Асроров	Мухаммаджон	Саидахмадович
-
-Ватаниева	Шахноз	Ватаниевна  https://github.com/Vatanieva https://Vatanieva.github.io/Vatanieva/Index.html <b>|Модуль 1: 50|</b>
-
-Гусев	Юрий	Андреевич https://github.com/gusev-stankin-idm1804  https://gusev-stankin-idm1804.github.io/ <b>|Модуль 1: 35|</b>
-
-Гущина	Полина	Федоровна    https://github.com/norowaretta
-
-Ежов	Денис	Олегович
-
-Ерастов	Фёдор	Андреевич https://erastov.github.io/ <b>|Модуль 1: 50 | Модуль 2: 50|</b>
-
-Захарова	Софья	Андреевна    https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html <b>|Модуль 1: 50|</b>
-
-Иванов	Владислав	Александрович
-
-Инедеркин	Кирилл	Андреевич
-
-Кайсаров	Магомед	Ганапиевич   https://github.com/kaysarov https://kaysarov.github.io <b>|Модуль 1: 45|</b>
-
-Карапетян	Эдуард	Каренович   https://github.com/eduardkarapetyan1997
-
-Князев	Кирилл	Константинович
-
-Коротков	Алексей	Сергеевич https://github.com/Zato4ka https://github.com/Zato4ka/Zato4ka.github.io <b>|Модуль 1: 50|</b>
-
-Лебедев	Александр	Михайлович
-
-Лебедева	Марина	Олеговна
-
-Нещадин	Иван	Павлович https://exitialis.github.io/ <b>|Модуль 1: 50 | Модуль 2: 50|</b>
-
-Ншот	Аксел Фeрнандез Вэркруйзь	
-
-Плотников	Алексей	Александрович
-
-Репин	Станислав	Вадимович  https://github.com/Stasofan  https://stasofan.github.io/ <b>|Модуль 1: 50 | Модуль 2: 50|</b>
-
-Соловьев	Александр	Дмитриевич
-
-Токунова	Александра	Сергеевна https://github.com/SashulyaT  https://sashulyat.github.io/ <b>|Модуль 1: 50|</b>
-
-Тулякова	Екатерина	Михайловна https://github.com/katerina10210/et_lab_web.github.io <b>|Модуль 1: 50|</b>
-
-Хомяков	Игорь	Сергеевич  https://github.com/igorWEBdeveloper/igorkh.github.io <b>|Модуль 1: 50|</b>
-
-Чувак	Павел	Иванович
-
-Чырагалиев	Юсиф	Нарбала оглы
-
-Шуленина	Анастасия	Владимировна https://github.com/asay1515 https://asay1515.github.io/ <b>|Модуль 1: 50|</b>
-
+| Студент |  Профиль | Страница | Проект | Модуль 1 | Модуль 2 |
+| :---:   |  :-:   |   :-:    |  :-:   |    :-:   |   :-:    |
+| Адамова	Юлия	Сергеевна | [Профиль](https://github.com/YuliaAdamova)  | [Страница](https://YuliaAdamova.github.io) | - | 50 | 50 |
+| Акользин	Алексей	Сергеевич | -  | - | - | - | - |
+| Асроров	Мухаммаджон	Саидахмадович | -  | - | - | - | - |
+| Ватаниева	Шахноз	Ватаниевна | [Профиль](https://github.com/Vatanieva)  | [Страница]( https://Vatanieva.github.io/Vatanieva/Index.html) | - | 50 | - |
+| Гусев	Юрий	Андреевич | [Профиль](https://github.com/gusev-stankin-idm1804)  | [Страница](https://gusev-stankin-idm1804.github.io/) | - | 35 | - |
+| Гущина	Полина	Федоровна | [Профиль](https://github.com/norowaretta)  | - | - | - | - |
+| Ежов	Денис	Олегович | -  | - | - | - | - |
+| Ерастов	Фёдор	Андреевич | -  | [Страница](https://erastov.github.io/) | - | 50 | 50 |
+| Захарова	Софья	Андреевна | -  | [Страница](https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html) | - | 50 | - |
+| Иванов	Владислав	Александрович | -  | - | - | - | - |
+| Инедеркин	Кирилл	Андреевич | -  | - | - | - | - |
+| Кайсаров	Магомед	Ганапиевич | [Профиль](https://github.com/kaysarov)  | [Страница](https://kaysarov.github.io )| - | 45 |  |
+| Карапетян	Эдуард	Каренович  | [Профиль](https://github.com/eduardkarapetyan1997)  | - | - | - | - |
+| Князев	Кирилл	Константинович | -  | - | - | - | - |
+| Коротков	Алексей	Сергеевич | [Профиль](https://github.com/Zato4ka)  | [Страница](https://github.com/Zato4ka/Zato4ka.github.io) | - | 50 | - |
+| Лебедев	Александр	Михайлович | -  | - | - | - | - |
+| Лебедева	Марина	Олеговна | -  | - | - | - | - |
+| Нещадин	Иван	Павлович | [Профиль](https://github.com/exitialis) | [Страница](https://exitialis.github.io/) | - | 50 | 50 |
+| Плотников	Алексей	Александрович | - | - | - | - | - |
+| Репин	Станислав	Вадимович | [Профиль](https://github.com/Stasofan) | [Страница](https://stasofan.github.io/) | - | 50 | 50 |
+| Соловьев	Александр	Дмитриевич | - | - | - | - | - |
+| Токунова	Александра	Сергеевна | [Профиль](https://github.com/SashulyaT) | [Страница](https://sashulyat.github.io/) | - | 50 | - |
+| Тулякова	Екатерина	Михайловна | [Профиль](https://github.com/katerina10210) | [Репозиторий](https://github.com/katerina10210/et_lab_web.github.io) | - | 50 | - |
+| Хомяков	Игорь	Сергеевич | [Профиль](https://github.com/igorWEBdeveloper) | [Репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io) | - | 50 | - |
+| Чувак	Павел	Иванович | - | - | - | - | - |
+| Чырагалиев	Юсиф	Нарбала оглы | - | - | - | - | - |
+| Шуленина	Анастасия	Владимировна | [Профиль](https://github.com/asay1515) | [Страница]( https://asay1515.github.io/) | - | 50 | - |
