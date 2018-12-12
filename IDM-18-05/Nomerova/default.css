@@ -1,0 +1,206 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F8F8F8 url(images/overlay.png) repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2D2D2D;
+}
+
+h2 {
+	padding: 0px 0px 30px 0px;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: rgba(0,0,0,.8);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+
+/** WRAPPER */
+
+#wrapper {
+	background: #FFF;
+	margin: 0px 20px;
+}
+
+.container {
+	margin: 0px auto;
+}
+
+/** HEADER */
+#menu p {
+	color:#ffffff;
+	padding: 20px 50px;
+	margin-bottom: 0px;
+}
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+	width: 35%;
+	float: right;
+	background:url(images/girl.png) no-repeat center;
+	background-size: width:100%;
+}
+
+/** MENU */
+
+#menu {
+	overflow: hidden;
+	background: #101010;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	width: 65%;
+	float: left;
+}
+
+	#page img
+	{
+		margin-bottom: 1em;
+	}
+
+	#page .title
+	{
+		margin-bottom: 2em;
+	}
+
+	#page .title h2
+	{
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#page .title .byline
+	{
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0,0,0,0.7);
+	}
+
+/* Footer */
+
+#footer {
+	overflow: hidden;
+	padding: 50px 0px 30px 0px;
+}
+
+#footer p {
+	text-align: center;
+		color: rgba(0,0,0,0.7);
+}
+
+#footer a {
+		color: rgba(0,0,0,0.7);
+}
+
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 90%;
+		margin: 5px;
+		padding: 5px 5px;
+		margin-left: 40px;
+	}
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 2.8em;
+		color: rgba(255,255,255,0.9);
+	}
+	
+	.title .byline
+	{
+		padding-top: 0.50em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0em 1em;
+		background: #161616;
+		letter-spacing: 0.10em;
+		line-height: 3em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+
