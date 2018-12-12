@@ -4,8 +4,8 @@
 | :---:   | :-:  |   :-:   |   :-:    |  :-:   |    :-:   |   :-:    |
 | Ахмадалиев	Улугбек	Аброрович | -  | - | - | - | - | - |
 | Байрак	Денис	Андреевич | -  | - | - | - | - | - |
-| Бодунков	Дмитрий	Андреевич | -  | FM station | [Страница](https://github.com/DmitryBodunkov) | - | 45 | - |
-| Бракоренко	Екатерина	Вадимовна | -  | FM station | [Страница](https://github.com/wowgrechka) | - | 45 | - |
+| Бодунков	Дмитрий	Андреевич | -  | FM station | [Страница](https://github.com/DmitryBodunkov) |[Страница](https://frolich97.github.io/22crew/#1) | 45 | - |
+| Бракоренко	Екатерина	Вадимовна | -  | FM station | [Страница](https://github.com/wowgrechka) | [Страница](https://frolich97.github.io/22crew/#1)  | 45 | - |
 | Давыдюк	Маргарита	Анатольевна | -  | - | [Страница](https://github.com/Akema8) | - | 45 | - |
 | Жалыбин	Александр	Евгеньевич | -  | - | [Страница](https://ejichek.github.io/) | - | 25 | - |
 | Жамбалова	Сэлмэг	Буладовна | -  | - | [Страница](https://selmeg.github.io/) | - | 45 | - |
@@ -13,10 +13,10 @@
 | Кобилбеков	Отабек	Маданбек угли | -  | - | - | - | - | - |
 | Макаров	Андрей	Андреевич | -  | - | - | - | - | - |
 | Никонов	Никита	Андреевич | -  | - | [Страница](https://niksn13.github.io) | - | 35 | - |
-| Смирнов	Никита	Анатольевич | -  | FM station | [Страница](https://nikitasmirnov17.github.io/Nikita17) | - | 40 | - |
+| Смирнов	Никита	Анатольевич | -  | FM station | [Страница](https://nikitasmirnov17.github.io/Nikita17) | [Страница](https://frolich97.github.io/22crew/#1)  | 40 | - |
 | Фесенко	Илья	Александрович | -  | - | - | - | - | - |
 | Филатова	Алена	Сергеевна | -  | - | - | - | - | - |
-| Фролов	Никита	Андреевич | -  | FM station | [Страница](https://github.com/Frolich97) | - | 40 | - |
+| Фролов	Никита	Андреевич | -  | FM station | [Страница](https://github.com/Frolich97) | [Страница](https://frolich97.github.io/22crew/#1)  | 40 | - |
 | Чаговец	Степан	Сергеевич | -  | - | - | - | - | - |
-| Чиркова	Виктория	Олеговна | -  | FM station | [Страница](https://chirkova.github.io/) | - | 45 | - |
+| Чиркова	Виктория	Олеговна | -  | FM station | [Страница](https://chirkova.github.io/) | [Страница](https://frolich97.github.io/22crew/#1)  | 45 | - |
 | Киосе	Никита | -  | - | [Страница](https://github.com/crotopus) | - | 35 | - |
