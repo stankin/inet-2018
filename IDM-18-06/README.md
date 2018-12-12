@@ -8,15 +8,17 @@ https://github.com/stankin/inet-2018/invitations
 В таблице должна быть ссылка на страницу с отчетами!
 
 
-| Студент | Роль | Команда | Страница | Проект | Модуль 1 | Модуль 2 |
-| :---:   | :-:  |   :-:   |   :-:    |  :-:   |    :-:   |   :-:    |
-| Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/???) | [Проект](-) | - | - |
-| Горюнов Антон Дмитриевич | -  | By the way to Dmitrov | [Страница](https://github.com/gerafko/) | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
-| Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov/InternetTecnology/wiki) | [Проект](https://github.com/gerafko/Rails-Project) | - | - |
-| Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Проект](-) | - | - |
-| Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | [Проект](-) | - | - |
-| Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Проект](-) | - | - |
-| Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | [Проект](-) | - | - |
-| Патрушева Алина Павловна | -  | - | [Страница](https://github.com/realoveola) | [Проект](-) | - | - |
-| Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | - |
-| Рубцов Андрей Александрович | -  | Животные | [Страница](https://lokvest.github.io/index.html) | [Проект](-) | 50 | - |
+| Студент | Роль | Команда | Страница пользователя | Страница-отчет | Проект | Модуль 1 | Модуль 2 |
+| :---:   | :-:  |   :-:   |   :-:    |  :-: |  :-:   |    :-:   |   :-:    |
+| Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/adcmadacarlos70) | [Отчет](https://adcmadacarlos70.github.io/) |[Проект](-) | - | - |
+| Горюнов Антон Дмитриевич | -  | By the way to Dmitrov | [Страница](https://github.com/gerafko/) | [Отчет](https://gerafko.github.io/) | [Проект](https://github.com/gerafko/Rails-Project) | 43 | - |
+| Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov) | [Отчет](https://danilkilyakov.github.io/) | [Проект](https://github.com/gerafko/Rails-Project) | 50 | - |
+| Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Отчет](https://vlaterz.github.io) | [Проект](-) | 40 | - |
+| Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | | [Проект](-) | - | - |
+| Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | | [Проект](-) | - | - |
+| Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | | [Проект](-) | - | - |
+| Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://realoveola.github.io/Othello/index.html) | 43 | - |
+| Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Отчет](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | - |
+| Рубцов Андрей Александрович | -  | Животные | [Страница](https://github.com/lokvest) | [Отчет](https://lokvest.github.io/index.html) | [Проект](-) | 50 | - |
+| Мочалина Мария Андреевна | - | Животные | [Страница](https://github.com/MaryReb) | [Отчет](https://maryreb.github.io/mochalina.github.io/index.html) | [Проект](-) | 50 | - |
+| Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](https://realoveola.github.io/Othello/index.html) | - | - |
