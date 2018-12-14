@@ -45,5 +45,5 @@
 |Скрипкин Дмитрий Денисович | X | X | X | X | X |  
 |Троц Никита Владимирович | [Страница пользователя](https://github.com/mrskylines) | X | [Отряд самоубийц] | X | X | 
 |Усенко Лев Юрьевич | [Страница пользователя](https://github.com/levich95) | X | [Бригада "УХ"] | X | X |   
-|Федоров Даниил Валерьевич | [Страница пользователя](https://github.com/danya2296) | [Страница-отчёт]https://danya2296.github.io) | [Команда 1] | [Билет 2](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-2) | X |  
+|Федоров Даниил Валерьевич | [Страница пользователя](https://github.com/danya2296) | [Страница-отчёт](https://danya2296.github.io) | [Команда 1] | [Билет 2](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-2) | X |  
 |Яскевич Константин Игоревич | [Страница пользователя](https://github.com/KonstantinYaskevich) | X | [Бригада "УХ"] | X | X |  
