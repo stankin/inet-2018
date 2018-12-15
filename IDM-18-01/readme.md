@@ -40,7 +40,7 @@
 |Лихачёв Сергей Валерьевич | [Страница пользователя](https://github.com/lihach13) | X | [Бригада "УХ"] | X | X |  
 |Матвеев Антон Сергеевич | [Страница пользователя](https://github.com/keklgar) | [Страница-отчёт](https://keklgar.github.io/Otchet/projects.html) | [НесуперБобры](https://github.com/Chyogurt/chyogurt.github.io/blob/master/README.md) | [Билет 10](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-10) | [Рекламная страница проекта](https://keklgar.github.io/Project/index.html) |  
 |Ружейников Антон Андреевич | [Страница пользователя](https://github.com/Jet313) | X | [СПИМ] | X | X |   
-|Седых Вячеслав Александрович | [Страница пользователя](https://github.com/vyachsed) | X | [СПИМ] | X | X | 
+|Седых Вячеслав Александрович | [Страница пользователя](https://github.com/vyachsed) | [Страница-отчёт](https://vyachsed.github.io) | [СПИМ] | [Билет 22](https://github.com/stankin/inet-2018/wiki/Билет-22) | X | 
 |Селин Николай Сергеевич | X | X | [Команда 1] | X | X | 
 |Скрипкин Дмитрий Денисович | X | X | X | X | X |  
 |Троц Никита Владимирович | [Страница пользователя](https://github.com/mrskylines) | X | [Отряд самоубийц] | X | X | 
