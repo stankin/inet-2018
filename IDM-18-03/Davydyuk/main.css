@@ -10,6 +10,7 @@
 
 section {
   display: block;
+  margin-bottom: 3em;
 }
 
 ol {
@@ -20,15 +21,16 @@ ul {
   list-style: circle;
 }
 
-body {
-  -webkit-text-size-adjust: none;
-}
+table { 
+text-align: left; 
+background-color: rgba(228, 228, 245); 
+ } 
 
-*,*:before,*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+ 
+ th, td {
+	 border: 1px solid grey;
+	 padding: 1.5vw;
+	 }
 
 .container {
   background-image: url('http://i97.ltalk.ru/84/69/436984/31/12893731/6.png');
@@ -38,11 +40,10 @@ body {
   margin-right: auto;
   padding-left: 10%;
   padding-right: 10%;
-}
-
-.container {
   width: 100%;
 }
+
+
 
 body {
   background: #fff;
@@ -94,8 +95,4 @@ footer {
 a:hover {
   color: #304FFE;
   border-bottom-color: rgba(255, 255, 255, 0);
-}
-
-section {
-  margin-bottom: 3em;
 }
