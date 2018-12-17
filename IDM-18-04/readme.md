@@ -32,7 +32,7 @@ https://github.com/stankin/inet-2018/invitations
 | Репин	Станислав	Вадимович | [Профиль](https://github.com/Stasofan) | [Страница](https://stasofan.github.io/) | - | 50 | 50 |
 | Соловьев	Александр	Дмитриевич | - | - | - | - | - |
 | Токунова	Александра	Сергеевна | [Профиль](https://github.com/SashulyaT) | [Страница](https://sashulyat.github.io/) | - | 50 | 50 |
-| Тулякова	Екатерина	Михайловна | [Профиль](https://github.com/katerina10210) | [Репозиторий](https://github.com/katerina10210/et_lab_web.github.io) | - | 50 | - |
+| Тулякова	Екатерина	Михайловна | [Профиль](https://github.com/katerina10210) | [Репозиторий](https://github.com/katerina10210/et_lab_web.github.io) | - | 50 | 50 |
 | Хомяков	Игорь	Сергеевич | [Профиль](https://github.com/igorWEBdeveloper) | [Репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io) | - | 50 | - |
 | Чувак	Павел	Иванович | - | - | - | - | - |
 | Чырагалиев	Юсиф	Нарбала оглы | - | - | - | - | - |
