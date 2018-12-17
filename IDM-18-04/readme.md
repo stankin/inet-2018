@@ -23,7 +23,7 @@ https://github.com/stankin/inet-2018/invitations
 | Кайсаров	Магомед	Ганапиевич | [Профиль](https://github.com/kaysarov)  | [Страница](https://kaysarov.github.io )| - | 45 | 50 |
 | Карапетян	Эдуард	Каренович  | [Профиль](https://github.com/eduardkarapetyan1997)  | - | - | - | - |
 | Князев	Кирилл	Константинович | -  | - | - | - | - |
-| Коротков	Алексей	Сергеевич | [Профиль](https://github.com/Zato4ka)  | [Страница](https://github.com/Zato4ka/Zato4ka.github.io) | - | 50 | - |
+| Коротков	Алексей	Сергеевич | [Профиль](https://github.com/Zato4ka)  | [Страница](https://github.com/Zato4ka/Zato4ka.github.io) | - | 50 | 50 |
 | Лебедев	Александр	Михайлович | -  | - | - | - | - |
 | Лебедева	Марина	Олеговна | -  | - | - | - | - |
 | Нещадин	Иван	Павлович | [Профиль](https://github.com/exitialis) | [Страница](https://exitialis.github.io/) | - | 50 | 50 |
