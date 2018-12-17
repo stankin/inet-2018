@@ -17,7 +17,7 @@ https://github.com/stankin/inet-2018/invitations
 | Гущина	Полина	Федоровна | [Профиль](https://github.com/norowaretta)  | - | - | - | - |
 | Ежов	Денис	Олегович | -  | - | - | - | - |
 | Ерастов	Фёдор	Андреевич | -  | [Страница](https://erastov.github.io/) | - | 50 | 50 |
-| Захарова	Софья	Андреевна | -  | [Страница](https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html) | - | 50 | - |
+| Захарова	Софья	Андреевна | -  | [Страница](https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html) | - | 50 | 45 |
 | Иванов	Владислав	Александрович | -  | - | - | - | - |
 | Инедеркин	Кирилл	Андреевич | -  | - | - | - | - |
 | Кайсаров	Магомед	Ганапиевич | [Профиль](https://github.com/kaysarov)  | [Страница](https://kaysarov.github.io )| - | 45 | 50 |
