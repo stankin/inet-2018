@@ -31,7 +31,7 @@ https://github.com/stankin/inet-2018/invitations
 | Плотников	Алексей	Александрович | - | - | - | - | - |
 | Репин	Станислав	Вадимович | [Профиль](https://github.com/Stasofan) | [Страница](https://stasofan.github.io/) | - | 50 | 50 |
 | Соловьев	Александр	Дмитриевич | - | - | - | - | - |
-| Токунова	Александра	Сергеевна | [Профиль](https://github.com/SashulyaT) | [Страница](https://sashulyat.github.io/) | - | 50 | - |
+| Токунова	Александра	Сергеевна | [Профиль](https://github.com/SashulyaT) | [Страница](https://sashulyat.github.io/) | - | 50 | 50 |
 | Тулякова	Екатерина	Михайловна | [Профиль](https://github.com/katerina10210) | [Репозиторий](https://github.com/katerina10210/et_lab_web.github.io) | - | 50 | - |
 | Хомяков	Игорь	Сергеевич | [Профиль](https://github.com/igorWEBdeveloper) | [Репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io) | - | 50 | - |
 | Чувак	Павел	Иванович | - | - | - | - | - |
