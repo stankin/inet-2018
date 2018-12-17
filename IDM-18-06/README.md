@@ -10,7 +10,7 @@ https://github.com/stankin/inet-2018/invitations
 
 | Студент | Роль | Команда | Страница пользователя | Страница-отчет | Проект | Модуль 1 | Модуль 2 |
 | :---:   | :-:  |   :-:   |   :-:    |  :-: |  :-:   |    :-:   |   :-:    |
-| Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/adcmadacarlos70) | [Отчет](https://adcmadacarlos70.github.io/) |[Проект](-) | 35 (с позданием) | - |
+| Адау-Какулу-Агоштинью Агоштинью | -  | - | [Страница](https://github.com/adcmadacarlos70) | [Отчет](https://adcmadacarlos70.github.io/) |[Проект](-) | 35 (с опозданием) | - |
 | Горюнов Антон Дмитриевич | -  | By the way to Dmitrov | [Страница](https://github.com/gerafko/) | [Отчет](https://gerafko.github.io/) | [Проект](https://github.com/gerafko/Rails-Project) | 43 | - |
 | Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov) | [Отчет](https://danilkilyakov.github.io/) | [Проект](https://github.com/gerafko/Rails-Project) | 50 | - |
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Отчет](https://vlaterz.github.io) | [Проект](-) | 40 | - |
