@@ -17,7 +17,7 @@ https://github.com/stankin/inet-2018/invitations
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | | [Проект](-) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | | [Проект](-) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) | | [Проект](-) | - | - |
-| Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://realoveola.github.io/Othello/index.html) | 43 | - |
+| Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://realoveola.github.io/Othello/index.html) | 43 | 45 |
 | Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Отчет](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | - |
 | Рубцов Андрей Александрович | -  | Животные | [Страница](https://github.com/lokvest) | [Отчет](https://lokvest.github.io/index.html) | [Проект](-) | 50 | - |
 | Мочалина Мария Андреевна | - | Животные | [Страница](https://github.com/MaryReb) | [Отчет](https://maryreb.github.io/mochalina.github.io/index.html) | [Проект](-) | 50 | - |
