@@ -27,7 +27,7 @@ https://github.com/stankin/inet-2018/invitations
 | Лебедев	Александр	Михайлович | -  | - | - | - | - |
 | Лебедева	Марина	Олеговна | -  | - | - | - | - |
 | Нещадин	Иван	Павлович | [Профиль](https://github.com/exitialis) | [Страница](https://exitialis.github.io/) | - | 50 | 50 |
-| Ншот	Аксел Фeрнандез Вэркруйзь | [Профиль](https://github.com/axelnchot)   | [Страница](https://github.com/axelnchot/Axelnchot.github.io) - | - | - | - |
+| Ншот	Аксел Фeрнандез Вэркруйзь | [Профиль](https://github.com/axelnchot)   | [Страница](https://github.com/axelnchot/Axelnchot.github.io) | - | 35 | 35 |
 | Плотников	Алексей	Александрович | - | - | - | - | - |
 | Репин	Станислав	Вадимович | [Профиль](https://github.com/Stasofan) | [Страница](https://stasofan.github.io/) | - | 50 | 50 |
 | Соловьев	Александр	Дмитриевич | - | - | - | - | - |
