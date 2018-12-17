@@ -36,4 +36,4 @@ https://github.com/stankin/inet-2018/invitations
 | Хомяков	Игорь	Сергеевич | [Профиль](https://github.com/igorWEBdeveloper) | [Репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io) | - | 50 | - |
 | Чувак	Павел	Иванович | - | - | - | - | - |
 | Чырагалиев	Юсиф	Нарбала оглы | - | - | - | - | - |
-| Шуленина	Анастасия	Владимировна | [Профиль](https://github.com/asay1515) | [Страница]( https://asay1515.github.io/) | - | 50 | - |
+| Шуленина	Анастасия	Владимировна | [Профиль](https://github.com/asay1515) | [Страница]( https://asay1515.github.io/) | - | 50 | 50 |
