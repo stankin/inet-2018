@@ -20,7 +20,7 @@ https://github.com/stankin/inet-2018/invitations
 | Захарова	Софья	Андреевна | -  | [Страница](https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html) | - | 50 | - |
 | Иванов	Владислав	Александрович | -  | - | - | - | - |
 | Инедеркин	Кирилл	Андреевич | -  | - | - | - | - |
-| Кайсаров	Магомед	Ганапиевич | [Профиль](https://github.com/kaysarov)  | [Страница](https://kaysarov.github.io )| - | 45 |  |
+| Кайсаров	Магомед	Ганапиевич | [Профиль](https://github.com/kaysarov)  | [Страница](https://kaysarov.github.io )| - | 45 | 50 |
 | Карапетян	Эдуард	Каренович  | [Профиль](https://github.com/eduardkarapetyan1997)  | - | - | - | - |
 | Князев	Кирилл	Константинович | -  | - | - | - | - |
 | Коротков	Алексей	Сергеевич | [Профиль](https://github.com/Zato4ka)  | [Страница](https://github.com/Zato4ka/Zato4ka.github.io) | - | 50 | - |
