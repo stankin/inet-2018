@@ -1,0 +1,530 @@
+﻿<html>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Ружейников А.А.">
+    <title>Отчет</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="assets/styles.css" rel="stylesheet">
+</head>
+ <style>
+	 .main_box {
+	width: 1000px;
+	margin: 20px auto;
+	background: white;
+	border: 3px solid #d1d1d1;
+	padding: 2%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	-webkit-box-shadow: 0px 0px 10px #ddd;}
+	 
+	  .top_box
+	 {
+	width: 750px;
+	margin: 25px auto;
+	background: white;
+	border: 3px solid #d1d1d1;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	-webkit-box-shadow: 0px 0px 10px #ddd;
+	 }
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+  body
+{ margin-left: 50px;
+  margin-right: 50px;
+  background: url(images/taiga.png) space #fc0;}
+    A:link
+{text-decoration:underline;
+color:blue;}
+A:visited
+{text-decoration:underline;
+color:purple;}
+A:hover
+{color:blue;}
+#slides{
+	position: relative;
+	height: 350px;
+	width: 650px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+.controls{
+	display: none;
+}
+.slide{
+	font-size: 40px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+  
+  background-size: cover;
+.controls{
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 20px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 10px 0px 0px 10px;
+  width: 70px;
+}
+.controls:hover,
+.controls:focus{
+  background: #eee;
+  color: #333;
+}
+.container{
+  position: relative;
+}
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
+}
+</style>
+<body>
+<div class="top_box">	
+ <h1><center>Личная страница Ружейникова А.А.</center></h1> 
+  <h3><center>студента группы ИДМ-18-01</center></h3>  
+ </div>
+ 
+ <br><br>
+ 
+
+	<div class="main_box">
+ <h1 align="center">Лабораторная работа 1</h1>
+ <h4>Задачи:</h4>
+ <ol>
+   <li>Зарегистрироваться на GitHub;</li>
+   <li>Вставить ссылки на материалы прошлого семестра</li>
+   <li>Подключиться к общему репозиторию Inet-2018;</li>
+   <li>Разработать личную лендинговую страницу</li>
+   <li>Написать wiki-статью по 8 билету 2 вопрос.</li>
+ </ol>
+   <h4>Выполнение работы:</h4>
+    <ol>
+      <li>Создана <a href=https://github.com/Jet313>страница пользователя</a> на GitHub;</li>
+      <li>Разработа <a href=https://jet313.github.io>личная страница-отчет</a>;</li>
+      <li>Страница выгружена в <a href=https://github.com/Jet313/inet-2018/tree/master/IDM-18-01/Ruzheynikov>общий репозиторий</a>.</li>
+</ol>
+ </div>
+
+ <hr>
+ 
+	<div class="main_box">
+  <h1 align="center">Лабораторная работа 2</h1>
+ <ol>
+  <h4>Задачи:</h4>
+   <li>Сформировать команду для разработки проекта;</li>
+   <li>Определить роли команды;</li>
+   <li>Разработать прототип приложения.</li>
+	</ol>
+	<ol>
+	 <h4>Выполнение:</h4>
+	 
+         <li>Была сформирована команда из четырех человек: 
+		 
+         <ol>СП | <a href="https://github.com/KeryB">Булычев К.В.</a></ol>
+             <ol>КО, ПП | <a href="https://github.com/foxy1303">Веселов Н.К.</a></ol>
+             <ol>РП, АД,ПП | <a href="https://github.com/Jet313">Ружейников А.А.</a></ol>
+             <ol>РП,АД | <a href="https://github.com/vyachsed">Седых В.А.</a></ol>
+			 
+		 <li>Коллективным решением было придумано название команды <b><a href="https://github.com/vyachsed/desktop/blob/master/README.md">"СПИМ"</a></b>.</li>
+		 <li>Командой разрабатывался прототип универсального тонкого клиента для организации рабочего места в соответствии с проектной ролью сотрудника.
+		 Была реализована база данных, позволяющая тонким клиентам посылать к ней запросы через Rest API. Реализация в проекте: <a href="https://github.com/vyachsed/desktop/tree/master/restClient"> ссылка </a>.
+		 Схема базы данных:
+		 <hr width="0%">
+		 <p align="center">
+    <img  src="images/database.jpg" />
+	</p>
+	 </li>
+		 <li>Результатом командной работы стал <a href="https://github.com/vyachsed/desktop">проект</a>.  База данных, используемая проектом, располагается на личной машине, из-за чего проект на данный момент не может быть запущен в сети интернет.</li>
+		 
+	 </ol>
+		</div>
+		
+    <hr size="5">
+	
+	<div class="main_box">
+    <h1 align="center">Лабораторная работа №3</h1>
+	<h2 align="center">Настройка коммутаторов и маршрутизаторов.</h2> 
+	<br>
+<h6>
+    Исходные данные:
+</h6>
+<br>
+<table border="1" align="center">
+    <tbody>
+        <tr bgcolor="lavender">
+            <td width="156">
+            </td>
+            <td width="156">
+                <p align="center">
+                    LAN A
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    LAN B
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    LAN C
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="honeydew">
+            <td width="156">
+                <p align="center">
+                    Количество узлов
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    400
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    900
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    3000
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="lavender">
+            <td width="156">
+                <p align="center">
+                    Маска
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    /23
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    /22
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    /20
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="honeydew">
+            <td width="156">
+                <p align="center">
+                    Subnet
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.12.0
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.12.0
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.0.0
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="lavender">
+            <td width="156">
+                <p align="center">
+                    IP адрес первого хоста
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.12.1
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.12.1
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.0.1
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="honeydew">
+            <td width="156">
+                <p align="center">
+                    IP адрес последнего хоста
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.13.254
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.15.254
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.15.254
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="lavender">
+            <td width="156">
+                <p align="center">
+                    Broadcast
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.13.255
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.15.255
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.15.255
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<p>
+
+    1) Разместить на рабочем поле коммутатор и два компьютера, соединить их.
+</p>
+<p align="center">
+    <img src="images/pic1.png"/>
+</p>
+<br>
+<p>
+
+    2) Настроить адресацию в созданной подсети.
+
+<p>
+    3) Добавить на рабочее поле еще один коммутатор с двумя компьютерами, соединить и настроить адресацию в новой подсети.
+	
+</p>
+<p align="center">
+   <img src="images/pic2.png"/>
+</p>
+
+<p>
+
+    4) Соединить коммутаторы между собой, проверить работоспособность сети.
+</p>
+<p align="center">
+    <img src="images/pic3.png"/>
+</p>
+<p>
+    Сеть неработоспособна, т.к. в сетях А и В используется разная адресация. Для
+    корректной работы сети необходимо использовать маршрутизатор.
+</p>
+<p>
+    5) Добавить маршрутизатор на рабочее поле.
+</p>
+<p align="center">
+   <img src="images/pic4.png"/>
+</p>
+
+<p>
+    6) Добавить на рабочее поле еще один маршрутизатор, подключить к нему
+    коммутатор и компьютер.
+</p>
+<p>
+    7) Настроить статическую маршрутизацию в спроектированной сети:
+</p>
+<div align="center">
+    <table border="1">
+        <tbody>
+            <tr bgcolor="honeydew">
+                <td width="208">
+                    <p align="center">
+                        Устройство
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        IP
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        Маска
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lavender">
+                <td width="208">
+                    <p align="center">
+                        Router0 FastEthernet 0/0
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        192.168.12.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.254.0
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="honeydew">
+                <td width="208">
+                   <p align="center">
+                        Router0 FastEthernet 0/1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        172.16.12.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.252.0
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lavender">
+                <td width="208">
+                    <p align="center">
+                        Router0 FastEthernet 0/2
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        15.15.12.2
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.255.252
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="honeydew">
+                <td width="208">
+                    <p align="center">
+                        Router1 FastEthernet 0/1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        10.10.0.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.40.0
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lavender">
+                <td width="208">
+                    <p align="center">
+                        Router2 FastEthernet 0/2
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        15.15.12.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.255.252
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<p align="center">
+    <img src="images/pic5.png"/>
+</p>
+<p>
+    8) Установить баннеры: для установки баннера воспользоваться командой: banner motd [название баннера]</p>
+						
+              
+                  </div>
+ </div>                   
+                    </div>
+
+
+	<hr  size="5">
+	
+ <div class="main_box">
+	<h1 align="center">Подготовка к экзамену</h1>
+	
+				<ol>
+					<li>
+						Результат теста "Инновации": <a target="_blank" href="https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1373642912">86%</a>
+					</li>
+					<li>	
+					Результат теста "Проекты": <a target="_blank" href="https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1682100065">83%</a> 
+					</li>
+					<li>Написан билет <a target="_blank" href="https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-18">№18</a> </li>
+				</ol>
+			</div>
+
+
+
+</body>
+
+</html>
