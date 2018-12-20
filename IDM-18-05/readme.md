@@ -15,7 +15,7 @@
 |10. |Казаков Константин Владимирович | [Страница]( http://konstantinkazakov.github.io) | 25  | 34 |
 |11. |Ковязина Елизавета Сергеевна |[Страница](https://elizavetakovyazina.github.io) | 50  | 52 |
 |12. |Куцев	Сергей	Олегович | [Страница](https://irades.github.io/)|   |  |
-|13. |Макаров Андрей Андреевич | [Страница] (https://lilsneezer.github.io/) |   |  |
+|13. |Макаров Андрей Андреевич |[Страница](https://lilsneezer.github.io/)|   |  |
 |14. |Миннибаев Артём Самиулович |  [Страница](https://MinnibaevA.github.io/Minnibaev/) | 45  | 52 |
 |15. |Номерова Анна Владиславовна | [Страница](https://annie-kelyas.github.io/) |48  | 54 |
 |16. |Панин Евгений Сергеевич | [Страница](https://st118590.github.io) |  35 | 52 |
