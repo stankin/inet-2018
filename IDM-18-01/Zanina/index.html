@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <section>
+        <div>Занина Екатерина Сергеевна</div>
+        <div>ИДМ-18-01</div>
+    <nav>
+        <ul>
+            <li><a data-toggle="#lab1" href="#">Лабораторная работа №1</a></li>
+            <li><a data-toggle="#lab2" href="#">Лабораторная работа №2</a></li>
+            <li><a data-toggle="#lab3" href="#">Лабораторная работа №3</a></li>
+            <li><a data-toggle="#exam" href="#">Подготовка к экзамену</a></li>
+        </ul>
+    </nav>
+    </section>
+</header>
+
+<main>
+    <section class = "accordion"  id="lab1">
+        <h1>Лабораторная работа №1</h1>
+        <div>Экосистема разработки программ с открытым кодом</div>
+        <div>Создание персональной страницы-отчета на github и работа с git</div>
+        <div>
+            <a href="https://github.com/pander1c">Мой профиль на GitHub</a>
+        </div>
+        <div>
+            <a href="https://pander1c.github.io/internet-tech/">Персональная страница-отчет</a>
+        </div>
+        <div>
+            <a href="https://github.com/stankin/inet-2018/tree/master/IDM-18-01/Zanina">Исходный код страницы в общем репозитории</a>
+        </div>
+    </section>
+
+    <section class = "accordion" id="lab2">
+        <h1>Лабораторная работа №2</h1>
+        <div>Разработка простого веб-приложения</div>
+        <div>Проектирование и разработка индивидуального или коллективного веб-приложения с использованием html,css,js + json,xml</div>
+        <div>
+            <h3>Команда Панда</h3>
+            <h3>ИДМ-18-01</h3>
+            <ul>
+                <li>Грязнов Д.В. (НИ, БА)</li>
+                <li>Занина Е.С. (РП, ВН, НИ)</li>
+                <li>Зотов Е.В. (РП, СП, ПП)</li>
+                <li>Корный А.А. (АД, КО)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class = "accordion"  id="lab3">
+        <h1>Лабораторная работа №3</h1>
+        <h2>Настройка локальной сети передачи данных.</h2>
+            <h3>Отчет по лабораторной работе:</h3>
+            <h2>Расчет диапазонов подсетей</h2>
+            <p class="screen"><img src="images/lab3/im1.png">
+            <ol>
+                <li>
+                    <h3>Разместить на рабочем поле коммутатор и два компьютера и соединить их</h3>
+                    <img src="images/lab3/1.png"/>
+                </li>
+                <li>
+                    <h3>Подключить консольный кабель для настройки оборудования</h3>
+                </li>
+                <li>
+                    <h3>Настроить адресацию на добавленных компьютерах</h3>
+                        <p>PC0:</p>
+                        <img src="images/lab3/2.png">
+                        <p>PC1:</p>
+                        <img src="images/lab3/3.png">
+                </li>
+                <li>
+                    <h3>Выполнить проверку работоспособности сети</h3>
+                    <img src="images/lab3/4.png">
+                </li>
+                <li>
+                    <h3>Добавить на рабочее поле еще один коммутатор с двумя компьютерами и настроить адресацию из другой подсети</h3>
+                    <img src="images/lab3/5.png">
+                        <p>PC3:</p>
+                        <img src="images/lab3/6.png">
+                        <p>PC4:</p>
+                        <img src="images/lab3/7.png">
+                </li>
+                <li>
+                    <h3>Соединить коммутаторы между собой и проверить работоспособность сети</h3>
+                    <img src="images/lab3/10.png">
+                </li>
+                <li>
+                    <h3>В случае неработоспособности сети объяснить причины</h3>
+                </li>
+                <li>
+                    <h3>Добавить маршрутизатор на рабочее поле</h3>
+                    <img src="images/lab3/11.png">
+                </li>
+                <li>
+                    <h3>Настроить интерфейсы маршрутизатора для существующих подсетей</h3>
+                    <img src="images/lab3/12.png">
+                </li>
+                <li>
+                    <h3>Проверить работоспособность сети</h3>
+                    <img src="images/lab3/13.png">
+                </li>
+                <li>
+                    <h3>В случае неработоспособности сети объяснить причины</h3>
+                </li>
+                <li>
+                    <h3>Указать шлюз по умолчанию и отправить сообщение</h3>
+                    <img src="images/lab3/13.png"></li>
+                <li>
+                    <h3>Добавить на рабочее поле еще один маршрутизатор</h3>
+                    <img src="images/lab3/14.png">
+                </li>
+                <li>
+                    <h3>Подключить к нему коммутатор и компьютер</h3>
+                    <img src="images/lab3/15.png">
+                </li>
+                <li>
+                    <h3>Настроить сетевые настройки согласно таблице ниже</h3>
+                    <img src="images/lab3/16.png">
+                </li>
+                <li>
+                    <h3>Соединить между маршрутизаторы и настроить между ними сеть с префиксом /30</h3>
+                    <img src="images/lab3/166.png">
+                </li>
+                <li>
+                    <h3>Проверить работоспособность сети, отправив сообщение сети A в сеть С и из сети В в сеть С</h3>
+                    <img src="images/lab3/17.png">
+                </li>
+                <li>
+                    <h3>В случае неработоспособности сети объяснить причины</h3>
+                </li>
+                <li>
+                    <h3>Настроить статическую маршрутизацию между сетями</h3>
+                    <div>
+                        <img src="images/lab3/18.png">
+                    </div>
+                    <div>
+                        <img src="images/lab3/19.png">
+                    </div>
+                </li>
+                <li>
+                    <h3>Настроить на сетевых устройствах пароли для привилегированного режима</h3>
+                    <img src="images/lab3/20.png">
+                </li>
+                <li>
+                    <h3>Настроить пароли на сетевых устройствах пароли на подключение через консоль и telnet</h3>
+                    <img src="images/lab3/21.png">
+                </li>
+                <li>
+                    <h3>Установить баннер на сетевое оборудование</h3>
+                    <img src="images/lab3/22.png">
+                </li>
+                <li>
+                    <h3>Проверить работу удаленного подключения</h3>
+                    <img src="images/lab3/23.png">
+                </li>
+            </ol>
+    </section>
+
+    <section class = "accordion"  id="exam">
+        <h1>Подготовка к экзамену</h1>
+        <div>
+            <span>Результат теста "Инновации":</span>
+            <a href="https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1373642912&range=AB13">86%</a>
+        </div>
+        <div>
+            <span>Результат теста "Проекты":</span>
+            <a href="https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1682100065&range=AD13">83%</a>
+        </div>
+        <div>
+            <a href="https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-%2328">Ответ на билет 28</a>
+        </div>
+    </section>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $("a[data-toggle]").click(function () {
+        console.log("We got toggle",$(this).data('toggle'));
+        var toggleTarget = $(this).data('toggle');
+        $(".accordion").hide();
+        $(toggleTarget).slideDown();
+    })
+</script>
+</body>
+</body>
+</html>

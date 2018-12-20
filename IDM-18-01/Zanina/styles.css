@@ -1,0 +1,63 @@
+
+header, main {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background: url("https://cs9.pikabu.ru/post_img/big/2017/08/19/8/150314846514562633.jpg") center ;
+    color: white;
+}
+
+header > section > nav > ul > li {
+    list-style: none;
+    padding: 20px 10px;
+    border: 2px solid white;
+    border-right: none;
+}
+header > section > nav > ul > li a,header > section > nav > ul > li a:visited {
+    color:#fff;
+}
+
+header > section > nav > ul > li:last-child {
+    border-right: 2px solid white;
+}
+
+header > section > div {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+main > section   {
+    display:none;
+}
+
+ul > li {
+    list-style: none;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-right: none;
+}
+
+ul > li:last-child {
+    border-right: 2px solid black;
+}
+
+
+ul {
+    display:inline-flex;
+}
+
+ul > li > a {
+    text-decoration: none;
+}
+
+.accordion div {
+    padding: 10px;
+}
+
