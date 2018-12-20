@@ -35,7 +35,7 @@
 |Комиссаров Ян Вадимович | [Страница пользователя](https://github.com/d1slike) | [Страница-отчёт](https://d1slike.github.io) | [Бригада "УХ"] | [Билет 19](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-19) | X |   
 |Коркмасов Джалалутдин Дагирович | [Страница пользователя](https://github.com/JimmyEagleEye) | [Страница-отчёт](https://jimmyeagleeye.github.io/stankin.io.korkmasov/index.html) | [Отряд самоубийц] | X | X | 
 |Корный Артур Александрович | [Страница пользователя](https://github.com/Creativio) | X | [Команда Панда] | X | X | 
-|Крюков Алексей Сергеевич | [Страница пользователя](https://github.com/AlexeyKrukov) | X | [Отряд самоубийц] | X | X | 
+|Крюков Алексей Сергеевич | [Страница пользователя](https://github.com/AlexeyKrukov) | X | [Отряд самоубийц] | [Билет 26](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-26) | X | 
 |Лаптев Александр Сергеевич | X | X | [Команда 1] | X | X |  
 |Лихачёв Сергей Валерьевич | [Страница пользователя](https://github.com/lihach13) | X | [Бригада "УХ"] | X | X |  
 |Матвеев Антон Сергеевич | [Страница пользователя](https://github.com/keklgar) | [Страница-отчёт](https://keklgar.github.io/Otchet/projects.html) | [НесуперБобры](https://github.com/Chyogurt/chyogurt.github.io/blob/master/README.md) | [Билет 10](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-10) | [Рекламная страница проекта](https://keklgar.github.io/Project/index.html) |  
@@ -43,7 +43,7 @@
 |Седых Вячеслав Александрович | [Страница пользователя](https://github.com/vyachsed) | [Страница-отчёт](https://vyachsed.github.io) | [СПИМ] | [Билет 22](https://github.com/stankin/inet-2018/wiki/Билет-22) | X | 
 |Селин Николай Сергеевич | X | X | [Команда 1] | X | X | 
 |Скрипкин Дмитрий Денисович | X | X | X | X | X |  
-|Троц Никита Владимирович | [Страница пользователя](https://github.com/mrskylines) | [Страница-отчёт](https://mrskylines.github.io/stankin.io.trots2/index.html) | [Отряд самоубийц] | X | X | 
+|Троц Никита Владимирович | [Страница пользователя](https://github.com/mrskylines) | [Страница-отчёт](https://mrskylines.github.io/stankin.io.trots2/index.html) | [Отряд самоубийц] | [Билет 26](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-26) | X | 
 |Усенко Лев Юрьевич | [Страница пользователя](https://github.com/levich95) | X | [Бригада "УХ"] | X | X |   
 |Федоров Даниил Валерьевич | [Страница пользователя](https://github.com/danya2296) | [Страница-отчёт](https://danya2296.github.io) | [Команда 1] | [Билет 2](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-2) | X |  
 |Яскевич Константин Игоревич | [Страница пользователя](https://github.com/KonstantinYaskevich) | X | [Бригада "УХ"] | X | X |  
