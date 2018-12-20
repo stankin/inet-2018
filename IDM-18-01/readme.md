@@ -30,7 +30,7 @@
 |Булычев Кирилл Валерьевич | [Страница пользователя](https://github.com/KeryB) | X | [СПИМ] | X | X | 
 |Веселов Никита Кириллович	 | [Страница пользователя](https://github.com/foxy1303) | [Страница-отчёт](https://foxy1303.github.io) | [СПИМ] | [Билет 8](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-8) | X |   
 |Грязнов Денис Владимирович	 | [Страница пользователя](https://github.com/DeniskaRediska) | X | [Команда Панда] | X | X |  
-|Занина Екатерина Сергеевна | [Страница пользователя](https://github.com/pander1c) | [Страница-отчёт](https://pander1c.github.io/internet-tech/) | [Команда Панда] | [Билет 19](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-%2328) | X |  
+|Занина Екатерина Сергеевна | [Страница пользователя](https://github.com/pander1c) | [Страница-отчёт](https://pander1c.github.io/internet-tech/) | [Команда Панда] | [Билет 28](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-%2328) | X |  
 |Зотов Егор Вячеславович | [Страница пользователя](https://github.com/EgorZotov) | X | [Команда Панда] | X | X |  
 |Комиссаров Ян Вадимович | [Страница пользователя](https://github.com/d1slike) | [Страница-отчёт](https://d1slike.github.io) | [Бригада "УХ"] | [Билет 19](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-19) | X |   
 |Коркмасов Джалалутдин Дагирович | [Страница пользователя](https://github.com/JimmyEagleEye) | X | [Отряд самоубийц] | X | X | 
