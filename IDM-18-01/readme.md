@@ -33,7 +33,7 @@
 |Занина Екатерина Сергеевна | [Страница пользователя](https://github.com/pander1c) | [Страница-отчёт](https://pander1c.github.io/internet-tech/) | [Команда Панда] | [Билет 28](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-%2328) | X |  
 |Зотов Егор Вячеславович | [Страница пользователя](https://github.com/EgorZotov) | [Страница-отчёт](https://it-landing.egorzotov.work) | [Команда Панда] | [Билет 28](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-%2328) | X |
 |Комиссаров Ян Вадимович | [Страница пользователя](https://github.com/d1slike) | [Страница-отчёт](https://d1slike.github.io) | [Бригада "УХ"] | [Билет 19](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-19) | X |   
-|Коркмасов Джалалутдин Дагирович | [Страница пользователя](https://github.com/JimmyEagleEye) | [Страница-отчёт](https://jimmyeagleeye.github.io/stankin.io.korkmasov/index.html) | [Отряд самоубийц] | X | X | 
+|Коркмасов Джалалутдин Дагирович | [Страница пользователя](https://github.com/JimmyEagleEye) | [Страница-отчёт](https://jimmyeagleeye.github.io/stankin.io.korkmasov/index.html) | [Отряд самоубийц] | [Билет 26](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-26) | X | 
 |Корный Артур Александрович | [Страница пользователя](https://github.com/Creativio) | X | [Команда Панда] | X | X | 
 |Крюков Алексей Сергеевич | [Страница пользователя](https://github.com/AlexeyKrukov) | X | [Отряд самоубийц] | [Билет 26](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-26) | X | 
 |Лаптев Александр Сергеевич | X | X | [Команда 1] | X | X |  
