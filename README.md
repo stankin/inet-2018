@@ -35,5 +35,7 @@
 
 [Библиотека традиционной музыки Памира](https://vatanieva.github.io/Vatanieva/Proj.html) Команда группы ИДМ-18-04	
 
+[Телеграмм-бот "It-news"](https://igorwebdeveloper.github.io/igorkh.github.io/tlg_Project)	Команда [B]PLAN (ИДМ-18-04)	
+
 Все учащиеся приглашаются к голосованию, которое продлится до вечера понедельника 24.12.18.
 [Голосуй!](https://docs.google.com/forms/d/e/1FAIpQLSeMa6KkY63O-b3sQ0JQc6bj5lzBUbU18keqVhl0k1FIp45R0A/viewform?usp=sf_link)
