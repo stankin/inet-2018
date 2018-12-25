@@ -24,3 +24,4 @@ https://github.com/stankin/inet-2018/invitations
 | Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](https://realoveola.github.io/Othello/index.html) | 35 (с опозданием) | 40 |
 | Пучкин Евгений Олегович | - | Животные | [Страница](https://github.com/ICanSeeForever) | [Отчет](https://icanseeforever.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | - | - |
 | Гулид Анатолий Константинович | - | Животные | [Страница](https://github.com/AKGulid) | [Отчет](https://akgulid.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | - | - |
+| Яблонский Дмитрий Анатольевич | - | Уричи | [Страница](https://github.com/Yaposh) | [Отчет](https://yaposh.github.io) | [Проект](https://yaposh.github.io) | - | - |
