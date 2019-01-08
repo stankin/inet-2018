@@ -1,0 +1,31 @@
+html {
+	background-color: #EEEEE2;
+}
+h1 {
+	text-align: center;
+}
+th {
+	background: #F5DFB7;	
+}
+table {
+	width: 100%;
+	height: 150px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	text-align: center;
+}
+td {
+	background: #ACECF1;
+}
+th, td {
+	border-style: solid;
+	border-width: 3px;
+}
+p {
+	text-align: center;
+}
+div{
+	text-align: center;
+	font-size: 35px;
+	color: #EC6E51;
+}
