@@ -15,7 +15,7 @@ https://github.com/stankin/inet-2018/invitations
 | Ватаниева	Шахноз	Ватаниевна | [Профиль](https://github.com/Vatanieva)  | [Страница]( https://Vatanieva.github.io/Vatanieva/Index.html) | - | 50 | 45 |
 | Гусев	Юрий	Андреевич | [Профиль](https://github.com/gusev-stankin-idm1804)  | [Страница](https://gusev-stankin-idm1804.github.io/) | - | 35 | - |
 | Гущина	Полина	Федоровна | [Профиль](https://github.com/norowaretta)  | [Страница](https://norowaretta.github.io/startpage.html)| - | 50 (с опозданием) | 50 |
-| Ежов	Денис	Олегович | -  | - | - | - | - |
+| Ежов	Денис	Олегович | [Профиль](https://github.com/DenisHedgehog)  | [Страница](https://denishedgehog.github.io) | - | - | - |
 | Ерастов	Фёдор	Андреевич | -  | [Страница](https://erastov.github.io/) | - | 50 | 50 |
 | Захарова	Софья	Андреевна | -  | [Страница](https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html) | - | 50 | 45 |
 | Иванов	Владислав	Александрович | -  | - | - | - | - |
