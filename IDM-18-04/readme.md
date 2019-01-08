@@ -34,6 +34,6 @@ https://github.com/stankin/inet-2018/invitations
 | Токунова	Александра	Сергеевна | [Профиль](https://github.com/SashulyaT) | [Страница](https://sashulyat.github.io/) | - | 50 | 50 |
 | Тулякова	Екатерина	Михайловна | [Профиль](https://github.com/katerina10210) | [Репозиторий](https://github.com/katerina10210/et_lab_web.github.io) | - | 50 | 50 |
 | Хомяков	Игорь	Сергеевич | [Профиль](https://github.com/igorWEBdeveloper) | [Репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io) | - | 50 | 50 |
-| Чувак	Павел	Иванович | [Профиль](https://github.com/pavelchuvak) | - | - | - | - |
+| Чувак	Павел	Иванович | [Профиль](https://github.com/pavelchuvak) | [Страница](https://pavelchuvak.github.io/chuvakpavel/) | - | - | - |
 | Чырагалиев	Юсиф	Нарбала оглы | - | - | - | - | - |
 | Шуленина	Анастасия	Владимировна | [Профиль](https://github.com/asay1515) | [Страница]( https://asay1515.github.io/) | - | 50 | 50 |
