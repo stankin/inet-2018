@@ -13,9 +13,9 @@ https://github.com/stankin/inet-2018/invitations
 | Акользин	Алексей	Сергеевич | -  | - | - | - | - |
 | Асроров	Мухаммаджон	Саидахмадович |[Профиль](https://github.com/hohsdop)  | [Страница](https://hohsdop.github.io) | - | 35 (с опозданием) | 45 |
 | Ватаниева	Шахноз	Ватаниевна | [Профиль](https://github.com/Vatanieva)  | [Страница]( https://Vatanieva.github.io/Vatanieva/Index.html) | - | 50 | 45 |
-| Гусев	Юрий	Андреевич | [Профиль](https://github.com/gusev-stankin-idm1804)  | [Страница](https://gusev-stankin-idm1804.github.io/) | - | 35 | - |
+| Гусев	Юрий	Андреевич | [Профиль](https://github.com/gusev-stankin-idm1804)  | [Страница](https://gusev-stankin-idm1804.github.io/) | - | 35 | 25 |
 | Гущина	Полина	Федоровна | [Профиль](https://github.com/norowaretta)  | [Страница](https://norowaretta.github.io/startpage.html)| - | 50 (с опозданием) | 50 |
-| Ежов	Денис	Олегович | -  | - | - | - | - |
+| Ежов	Денис	Олегович | [Профиль](https://github.com/DenisHedgehog)  | [Страница](https://denishedgehog.github.io) | - | - | - |
 | Ерастов	Фёдор	Андреевич | -  | [Страница](https://erastov.github.io/) | - | 50 | 50 |
 | Захарова	Софья	Андреевна | -  | [Страница](https://sofiazakharova.github.io/Zakharova2018-19github.io/index6.html) | - | 50 | 45 |
 | Иванов	Владислав	Александрович | -  | - | - | - | - |
@@ -34,6 +34,6 @@ https://github.com/stankin/inet-2018/invitations
 | Токунова	Александра	Сергеевна | [Профиль](https://github.com/SashulyaT) | [Страница](https://sashulyat.github.io/) | - | 50 | 50 |
 | Тулякова	Екатерина	Михайловна | [Профиль](https://github.com/katerina10210) | [Репозиторий](https://github.com/katerina10210/et_lab_web.github.io) | - | 50 | 50 |
 | Хомяков	Игорь	Сергеевич | [Профиль](https://github.com/igorWEBdeveloper) | [Репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io) | - | 50 | 50 |
-| Чувак	Павел	Иванович | [Профиль](https://github.com/pavelchuvak) | [Страница](https://pavelchuvak.github.io/chuvakpavel/) | - | - | - |
+| Чувак	Павел	Иванович | [Профиль](https://github.com/pavelchuvak) | [Страница](https://pavelchuvak.github.io/chuvakpavel/) | - | 25 | 25 |
 | Чырагалиев	Юсиф	Нарбала оглы | - | - | - | - | - |
 | Шуленина	Анастасия	Владимировна | [Профиль](https://github.com/asay1515) | [Страница]( https://asay1515.github.io/) | - | 50 | 50 |

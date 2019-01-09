@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>IP calculatot</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="netcalc.css">
+	</head>
+	<body>
+		<H1>IP-калькулятор</H1>
+		<p>IP-адрес:
+		<input type="text" name="network" value="172.16.0.0" placeholder="Network" id='range'>
+		Маска:
+		<select id="32masks">
+			<option id="prefix1" value="1"></option>
+			<option id="prefix2" value="2"></option>
+			<option id="prefix3" value="3"></option>
+			<option id="prefix4" value="4"></option>
+			<option id="prefix5" value="5"></option>
+			<option id="prefix6" value="6"></option>
+			<option id="prefix7" value="7"></option>
+			<option id="prefix8" value="8"></option>
+			<option id="prefix9" value="9"></option>
+			<option id="prefix10" value="10"></option>
+			<option id="prefix11" value="11"></option>
+			<option id="prefix12" value="12"></option>
+			<option id="prefix13" value="13"></option>
+			<option id="prefix14" value="14"></option>
+			<option id="prefix15" value="15"></option>
+			<option id="prefix16" value="16"></option>
+			<option id="prefix17" value="17"></option>
+			<option id="prefix18" value="18"></option>
+			<option id="prefix19" value="19"></option>
+			<option id="prefix20" value="20"></option>
+			<option id="prefix21" value="21"></option>
+			<option id="prefix22" value="22"></option>
+			<option id="prefix23" value="23"></option>
+			<option id="prefix24" value="24" selected></option>
+			<option id="prefix25" value="25"></option>
+			<option id="prefix26" value="26"></option>
+			<option id="prefix27" value="27"></option>
+			<option id="prefix28" value="28"></option>
+			<option id="prefix29" value="29"></option>
+			<option id="prefix30" value="30"></option>
+			<option id="prefix31" value="31"></option>
+			<option id="prefix32" value="32"></option>
+		</select>
+		<button onclick="netcalc()">Рассчитать</button></p>
+		<table>
+			<tr>
+				<th style="width: 20px"></th>
+				<th>Subnet</th>
+				<th>Broadcast</th>
+				<th>Маска</th>
+				<th>Шаблонная маска</th>
+			</tr>
+			<tr><th style="width: 20px;">10</th><td id="subnet"></td><td id="broadcast"></td><td id="mask"></td><td id="wmask"></td></tr>
+			<tr><th style="width: 20px;">2</th><td id="subnet2"></td><td id="broadcast2"></td><td id="mask2"></td><td id="wmask2"></td></tr>
+		</table>
+		<p>Максимальное количество узлов в сети: <div id="maxHost"></div></p>
+		<script src="netcalc.js"></script>
+	</body>
+</html>
