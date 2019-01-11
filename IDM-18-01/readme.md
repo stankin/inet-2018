@@ -21,7 +21,7 @@
 
 | Студент | Ссылка на Github | Ссылка на персональную страницу-отчёт | Ссылка на страницу команды | Ответ на билет | Дополнительно (если есть) |
 | :---:   |   :-:    |   :-:    |   :-:    |   :-:    |   :-:    |    
-|Аветисян Роберт Сергеевич | X | X | X | X | X | 
+|Аветисян Роберт Сергеевич | [Страница пользователя](https://github.com/robertavetisyan) | [Страница-отчёт](https://robertavetisyan.github.io/stankin.io.avetisyan/) | [Команда «Первого канала»](https://github.com/stankin/inet-2018/blob/master/IDM-18-01/Avetisyan/README.md) | [Билет 30](https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-30) | X |  
 |Андриянов Евгений Сергеевич | [Страница пользователя](https://github.com/es-andriyanov) | X | [Команда 1] | X | X |  
 |Анисимов Олег Эдуардович | [Страница пользователя](https://github.com/Wartorin) | X | [Команда 1] | X | X |  
 |Атанов Сергей Вадимович	 | [Страница пользователя](https://github.com/nixelce) | X | [чсв пати] | X | X |  
