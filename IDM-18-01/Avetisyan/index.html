@@ -1,0 +1,205 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Отчет Аветисяна Р.</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<script>
+	function clock() {
+  var now = new Date();
+  var ctx = document.getElementById('canvas').getContext('2d');
+  ctx.save();
+  ctx.clearRect(0, 0, 150, 150);
+  ctx.translate(75, 75);
+  ctx.scale(0.4, 0.4);
+  ctx.rotate(-Math.PI / 2);
+  ctx.strokeStyle = 'black';
+  ctx.fillStyle = 'white';
+  ctx.lineWidth = 8;
+  ctx.lineCap = 'round';
+
+  // Hour marks
+  ctx.save();
+  for (var i = 0; i < 12; i++) {
+    ctx.beginPath();
+    ctx.rotate(Math.PI / 6);
+    ctx.moveTo(100, 0);
+    ctx.lineTo(120, 0);
+    ctx.stroke();
+  }
+  ctx.restore();
+
+  // Minute marks
+  ctx.save();
+  ctx.lineWidth = 5;
+  for (i = 0; i < 60; i++) {
+    if (i % 5!= 0) {
+      ctx.beginPath();
+      ctx.moveTo(117, 0);
+      ctx.lineTo(120, 0);
+      ctx.stroke();
+    }
+    ctx.rotate(Math.PI / 30);
+  }
+  ctx.restore();
+ 
+  var sec = now.getSeconds();
+  var min = now.getMinutes();
+  var hr  = now.getHours();
+  hr = hr >= 12 ? hr - 12 : hr;
+
+  ctx.fillStyle = 'black';
+
+  // write Hours
+  ctx.save();
+  ctx.rotate(hr * (Math.PI / 6) + (Math.PI / 360) * min + (Math.PI / 21600) *sec);
+  ctx.lineWidth = 14;
+  ctx.beginPath();
+  ctx.moveTo(-20, 0);
+  ctx.lineTo(80, 0);
+  ctx.stroke();
+  ctx.restore();
+
+  // write Minutes
+  ctx.save();
+  ctx.rotate((Math.PI / 30) * min + (Math.PI / 1800) * sec);
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.moveTo(-28, 0);
+  ctx.lineTo(112, 0);
+  ctx.stroke();
+  ctx.restore();
+ 
+  // Write seconds
+  ctx.save();
+  ctx.rotate(sec * Math.PI / 30);
+  ctx.strokeStyle = '#D40000';
+  ctx.fillStyle = '#D40000';
+  ctx.lineWidth = 6;
+  ctx.beginPath();
+  ctx.moveTo(-30, 0);
+  ctx.lineTo(83, 0);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, 10, 0, Math.PI * 2, true);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(95, 0, 10, 0, Math.PI * 2, true);
+  ctx.stroke();
+  ctx.fillStyle = 'rgba(0, 0, 0, 0)';
+  ctx.arc(0, 0, 3, 0, Math.PI * 2, true);
+  ctx.fill();
+  ctx.restore();
+
+  ctx.beginPath();
+  ctx.lineWidth = 14;
+  ctx.strokeStyle = '#325FA2';
+  ctx.arc(0, 0, 142, 0, Math.PI * 2, true);
+  ctx.stroke();
+
+  ctx.restore();
+
+  window.requestAnimationFrame(clock);
+}
+
+window.requestAnimationFrame(clock);
+	</script>
+</head>
+<body>
+    <div id="main">
+        <section id="top" class="one dark cover">
+            <div class="container">
+                <canvas id="canvas" width="150" height="150"></canvas>
+                <h2 class="alt">Личная страница</h2>
+                <p>Аветисян Роберт, ИДМ-18-01</p>
+                <a href="#lab1" class="button scrolly">Отчеты по лабораторной</a>
+            </div>
+        </section>
+
+        <section id="lab1" class="three">
+            <div class="container">
+                <h2>Лабораторная работа #1</h2>
+                <h3>Работа с Github</h3>
+                <div class="textmain">
+                    <p class="highlight">Задачи:</p>
+                    <ol>
+                        <li>
+                            <p>Регистрация на GitHub.</p>
+                            <p><a href="https://github.com/robertavetisyan">Страница пользователя</a></p>
+                        </li>
+                        <li>
+                            <p>Создать персональную веб страницу-отчет с использованием html, css, js.</p>
+                            <p><a href="https://stankin.github.io/inet-2018/IDM-18-01/Avetisyan/index.html">Персональная страница-отчет</a>.</p>
+							
+                        </li>
+                        <li>
+                            <p>Загрузить персональную веб страницу-отчет в репозиторий ИДМ-18-01 по курсу "Интернет-технологии" на GitHub.</p>
+                            <p><a href="https://stankin.github.io/inet-2018/IDM-18-01/Avetisyan">Папка с исходными кодами в репозитории</a>.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="lab2" class="four">
+            <div class="container">
+                <h2>Лабораторная работа #2</h2>
+                <h3>Разработка простого веб-приложения</h3>
+                <div class="textmain">
+                    <p class="highlight">Задачи:</p>
+                    <ol>
+                        <li>
+                            <p>Собрать команду для разработки приложения и распределить роли.</p>
+                            <p><a href="https://stankin.github.io/inet-2018/IDM-18-01/Avetisyan/README.md">Страница команды</a>.</p>
+                        </li>
+                        <li>
+                            <p> Прописать функционал и реализовать возможность работы с приложением в проекте</p>
+                        </li>
+                        <li>
+                            <p>Прописать стили страницы</p>
+                        </li>
+			<br>
+			<p>В данном проекте я выполнял все роли. Моей задачей было сделать все и формализовать требования к серверной части приложения, сформировать протокол, по-которому приложение должно работать.
+                        <br>
+		    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="lab3" class="three">
+            <div class="container">
+                <h2>Лабораторная работа #3</h2>
+                <h3>Настройка локальной сети передачи данных</h3>
+                <div class="textmain">
+                    <p class="highlight">Задачи:</p>
+                    <p>Настройка коммутаторов и маршрутизаторов.</p>
+                    <p>Отчет по лабораторной работе</p>
+					<p><a href=https://stankin.github.io/inet-2018/IDM-18-01/Avetisyan/assets/Report3.html>Отчет</a><p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lab4" class="four">
+            <div class="container">
+                <h2>Подготовка к экзамену</h2>
+                <div class="textmain">
+                  <p><a href="https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-30">Ответ на билет № 30</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="footer">
+        <ul class="copyright">
+            <li>2018</li>
+        </ul>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
