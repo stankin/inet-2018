@@ -22,6 +22,8 @@
 
 Карпеев	Никита	Сергеевич - https://nikitakarpa.github.io/
 
+Короткин Михаил Ильич - https://mikhailkorotkin.github.io/
+
 Меньшикова	Анастасия	Владимировна
 
 Меньшикова	Виктория	Андреевна - https://victoriamenshikova.github.io/
