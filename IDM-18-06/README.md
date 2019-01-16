@@ -22,6 +22,6 @@ https://github.com/stankin/inet-2018/invitations
 | Рубцов Андрей Александрович | -  | Животные | [Страница](https://github.com/lokvest) | [Отчет](https://lokvest.github.io/index.html) | [Проект](https://lokvest.github.io/MagicMath/) | 50 | 50 |
 | Мочалина Мария Андреевна | - | Животные | [Страница](https://github.com/MaryReb) | [Отчет](https://maryreb.github.io/mochalina.github.io/index.html) | [Проект](https://lokvest.github.io/MagicMath/) | 50 | 50 |
 | Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](https://realoveola.github.io/Othello/index.html) | 35 (с опозданием) | 40 |
-| Пучкин Евгений Олегович | - | Животные | [Страница](https://github.com/ICanSeeForever) | [Отчет](https://icanseeforever.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | - | - |
-| Гулид Анатолий Константинович | - | Животные | [Страница](https://github.com/AKGulid) | [Отчет](https://akgulid.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | - | - |
-| Яблонский Дмитрий Анатольевич | - | Уричи | [Страница](https://github.com/Yaposh) | [Отчет](https://yaposh.github.io) | [Проект](https://yaposh.github.io) | - | - |
+| Пучкин Евгений Олегович | - | Животные | [Страница](https://github.com/ICanSeeForever) | [Отчет](https://icanseeforever.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | 25 | 25 |
+| Гулид Анатолий Константинович | - | Животные | [Страница](https://github.com/AKGulid) | [Отчет](https://akgulid.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | 25 | 25 |
+| Яблонский Дмитрий Анатольевич | - | Уричи | [Страница](https://github.com/Yaposh) | [Отчет](https://yaposh.github.io) | [Проект](https://yaposh.github.io) | 25 | 25 |
