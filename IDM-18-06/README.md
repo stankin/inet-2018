@@ -25,3 +25,4 @@ https://github.com/stankin/inet-2018/invitations
 | Пучкин Евгений Олегович | - | Животные | [Страница](https://github.com/ICanSeeForever) | [Отчет](https://icanseeforever.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | 25 | 25 |
 | Гулид Анатолий Константинович | - | Животные | [Страница](https://github.com/AKGulid) | [Отчет](https://akgulid.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | 25 | 25 |
 | Яблонский Дмитрий Анатольевич | - | Уричи | [Страница](https://github.com/Yaposh) | [Отчет](https://yaposh.github.io) | [Проект](https://yaposh.github.io) | 25 | 25 |
+| Гриценко Павел Викторовчи | - | Уричи | [Страница](https://github.com/senjin5) | [Отчет](-) | [Проект](-) | - | - |
