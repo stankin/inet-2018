@@ -15,7 +15,7 @@ https://github.com/stankin/inet-2018/invitations
 | Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov) | [Отчет](https://danilkilyakov.github.io/) | [Проект](https://github.com/gerafko/Rails-Project) | 50 | - |
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Отчет](https://vlaterz.github.io) | [Проект](-) | 40 | - |
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | | [Проект](-) | - | - |
-| Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Отчет](https://maxim-raspopov.github.io/) | [Проект](-) | - | - |
+| Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Отчет](https://maxim-raspopov.github.io/) | [Проект](https://t.me/MyMeOwBot) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) |[Отчет](https://adyga07.github.io/) | [Проект](https://adyga07.github.io/) | 35 (с опозданием) | 40 |
 | Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://realoveola.github.io/Othello/index.html) | 43 | 45 |
 | Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Отчет](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | 50 |
