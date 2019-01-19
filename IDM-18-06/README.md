@@ -16,6 +16,7 @@ https://github.com/stankin/inet-2018/invitations
 | Сайфутдинов Равиль Шамильевич | -  | By the way to Dmitrov | [Страница](https://github.com/RafofShadows) | [Отчет](https://rafofshadows.github.io/) | [Проект](https://github.com/RafOfShadows/KanbanBoards) | - | - |
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Отчет](https://vlaterz.github.io) | [Проект](https://vlaterrogue.wixsite.com/mysite) | 40 | - |
 | Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | | [Проект](https://vlaterrogue.wixsite.com/mysite) | - | - |
+| Кучерук Олег Игоревич | -  | - | [Страница](https://github.com/jkturexther) | [Отчет](https://jkturexther.github.io/) | [Проект](https://github.com/jkturexther) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Отчет](https://maxim-raspopov.github.io/) | [Проект](https://vlaterrogue.wixsite.com/mysite) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) |[Отчет](https://adyga07.github.io/) | [Проект](https://adyga07.github.io/) | 35 (с опозданием) | 40 |
 | Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://realoveola.github.io/Othello/index.html) | 43 | 45 |
