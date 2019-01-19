@@ -15,7 +15,7 @@ https://github.com/stankin/inet-2018/invitations
 | Киляков Данил Александрович | -  | By the way to Dmitrov | [Страница](https://github.com/DanilKilyakov) | [Отчет](https://danilkilyakov.github.io/) | [Проект](https://github.com/RafOfShadows/KanbanBoards) | 50 | - |
 | Сайфутдинов Равиль Шамильевич | -  | By the way to Dmitrov | [Страница](https://github.com/RafofShadows) | [Отчет](https://rafofshadows.github.io/) | [Проект](https://github.com/RafOfShadows/KanbanBoards) | - | - |
 | Терентьев Владимир Александрович | -  | РКТ тим | [Страница](https://github.com/vlaterz) | [Отчет](https://vlaterz.github.io) | [Проект](https://vlaterrogue.wixsite.com/mysite) | 40 | - |
-| Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) |[Отчет] (https://majorlabrador.github.io/DaniilKasatkin/) | [Проект](https://vlaterrogue.wixsite.com/mysite) | - | - |
+| Касаткин Даниил Игоревич | -  | РКТ тим | [Страница](https://github.com/MajorLabrador) | [Отчет](https://majorlabrador.github.io/DaniilKasatkin/) | [Проект](https://vlaterrogue.wixsite.com/mysite) | - | - |
 | Кучерук Олег Игоревич | -  | - | [Страница](https://github.com/jkturexther) | [Отчет](https://jkturexther.github.io/) | [Проект](https://github.com/jkturexther) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Отчет](https://maxim-raspopov.github.io/) | [Проект](https://vlaterrogue.wixsite.com/mysite) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) |[Отчет](https://adyga07.github.io/) | [Проект](https://adyga07.github.io/) | 35 (с опозданием) | 40 |
