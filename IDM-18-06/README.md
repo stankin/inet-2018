@@ -19,11 +19,11 @@ https://github.com/stankin/inet-2018/invitations
 | Кучерук Олег Игоревич | -  | - | [Страница](https://github.com/jkturexther) | [Отчет](https://jkturexther.github.io/) | [Проект](https://github.com/jkturexther) | - | - |
 | Распопов Максим Тимофеевич | -  | РКТ тим | [Страница](https://github.com/Maxim-Raspopov) | [Отчет](https://maxim-raspopov.github.io/) | [Проект](https://vlaterrogue.wixsite.com/mysite) | - | - |
 | Танашев Эльдар Хасанович | -  | crash team | [Страница](https://github.com/Adyga07) |[Отчет](https://adyga07.github.io/) | [Проект](https://adyga07.github.io/) | 35 (с опозданием) | 40 |
-| Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://realoveola.github.io/Othello/index.html) | 43 | 45 |
+| Патрушева Алина Павловна | -  | Unknowners | [Страница](https://github.com/realoveola) | [Отчет](https://realoveola.github.io) | [Проект](https://simlas0.wixsite.com/mysite) | 43 | 45 |
 | Никитин Дмитрий Владимирович | -  | crash team | [Страница](https://github.com/nikityane) | [Отчет](https://nikityane.github.io/) | [Проект](https://nikityane.github.io/) | 40 | 50 |
 | Рубцов Андрей Александрович | -  | Животные | [Страница](https://github.com/lokvest) | [Отчет](https://lokvest.github.io/index.html) | [Проект](https://lokvest.github.io/MagicMath/) | 50 | 50 |
 | Мочалина Мария Андреевна | - | Животные | [Страница](https://github.com/MaryReb) | [Отчет](https://maryreb.github.io/mochalina.github.io/index.html) | [Проект](https://lokvest.github.io/MagicMath/) | 50 | 50 |
-| Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](https://realoveola.github.io/Othello/index.html) | 35 (с опозданием) | 40 |
+| Сокольский Сергей Алексеевич | - | Unknowners | [Страница](https://github.com/Simlus) | [Отчет](https://simlus.github.io/)| [Проект](https://simlas0.wixsite.com/mysite) | 35 (с опозданием) | 40 |
 | Пучкин Евгений Олегович | - | Животные | [Страница](https://github.com/ICanSeeForever) | [Отчет](https://icanseeforever.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | 25 | 25 |
 | Гулид Анатолий Константинович | - | Животные | [Страница](https://github.com/AKGulid) | [Отчет](https://akgulid.github.io/) | [Проект](https://lokvest.github.io/MagicMath/) | 25 | 25 |
 | Яблонский Дмитрий Анатольевич | - | Уричи | [Страница](https://github.com/Yaposh) | [Отчет](https://yaposh.github.io) | [Проект](https://yaposh.github.io) | 25 | 25 |
